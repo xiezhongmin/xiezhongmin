@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=xiezhongmin&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=xiezhongmin&show_icons=true&theme=synthwave&bg_color=FFFFFF&title_color=3741FF)](https://github.com/anuraghazra/github-readme-stats)
 
 
 <!--

@@ -1,0 +1,6 @@
+framework module Pods_DKKitDemo {
+  umbrella header "Pods-DKKitDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

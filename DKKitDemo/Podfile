@@ -6,7 +6,7 @@ target 'DKKitDemo' do
   use_frameworks!
 
   # Pods for DKKitDemo
-  pod "DKKit", :path=> '../../DKKit/DKKit'
+  pod "DKKit", :path=> '../../DKKit'
 
   target 'DKKitDemoTests' do
     inherit! :search_paths

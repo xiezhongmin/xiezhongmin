@@ -2,15 +2,15 @@ PODS:
   - DKKit (0.1.0)
 
 DEPENDENCIES:
-  - DKKit (from `../../DKKit/DKKit`)
+  - DKKit (from `../../DKKit`)
 
 EXTERNAL SOURCES:
   DKKit:
-    :path: "../../DKKit/DKKit"
+    :path: "../../DKKit"
 
 SPEC CHECKSUMS:
   DKKit: 4b08a83f5464ce4d4c9134e3da5d094bc1cfa17f
 
-PODFILE CHECKSUM: aa8e5e6c1258c8254e129b9080812d33b024574d
+PODFILE CHECKSUM: 9a60ad4ad2db6918bdd5cb8e3de000d0cdff67cf
 
 COCOAPODS: 1.11.2

@@ -36,6 +36,7 @@
 #import "NSObject+DKModel.h"
 #import "DKStringUtils.h"
 #import "DKTextSizeCalculate.h"
+#import "DKWeakProxy.h"
 #import "DKKit.h"
 #import "DKDebug.h"
 

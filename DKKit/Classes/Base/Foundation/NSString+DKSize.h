@@ -18,7 +18,10 @@
  *  @param lineSpacing  行间距
  *  @param width        约束宽度
  */
-- (CGFloat)dk_heightWithFont:(UIFont *)font color:(UIColor *)color lineSpacing:(CGFloat)lineSpacing constrainedToWidth:(CGFloat)width;
+- (CGFloat)dk_heightWithFont:(UIFont *)font
+                       color:(UIColor *)color
+                 lineSpacing:(CGFloat)lineSpacing
+          constrainedToWidth:(CGFloat)width;
 /**
  *  @brief 计算带富文本的文字宽度
  *
@@ -27,21 +30,26 @@
  *  @param lineSpacing  行间距
  *  @param height       约束高度
  */
-- (CGFloat)dk_widthWithFont:(UIFont *)font color:(UIColor *)color lineSpacing:(CGFloat)lineSpacing constrainedToHeight:(CGFloat)height;
+- (CGFloat)dk_widthWithFont:(UIFont *)font
+                      color:(UIColor *)color
+                lineSpacing:(CGFloat)lineSpacing
+        constrainedToHeight:(CGFloat)height;
 /**
  *  @brief 计算文字的高度
  *
  *  @param font  字体(默认为系统字体)
  *  @param width 约束宽度
  */
-- (CGFloat)dk_heightWithFont:(UIFont *)font constrainedToWidth:(CGFloat)width;
+- (CGFloat)dk_heightWithFont:(UIFont *)font
+          constrainedToWidth:(CGFloat)width;
 /**
  *  @brief 计算文字的宽度
  *
  *  @param font   字体(默认为系统字体)
  *  @param height 约束高度
  */
-- (CGFloat)dk_widthWithFont:(UIFont *)font constrainedToHeight:(CGFloat)height;
+- (CGFloat)dk_widthWithFont:(UIFont *)font
+        constrainedToHeight:(CGFloat)height;
 
 /**
  *  @brief 计算文字的大小
@@ -49,13 +57,15 @@
  *  @param font  字体(默认为系统字体)
  *  @param width 约束宽度
  */
-- (CGSize)dk_sizeWithFont:(UIFont *)font constrainedToWidth:(CGFloat)width;
+- (CGSize)dk_sizeWithFont:(UIFont *)font
+       constrainedToWidth:(CGFloat)width;
 /**
  *  @brief 计算文字的大小
  *
  *  @param font   字体(默认为系统字体)
  *  @param height 约束高度
  */
-- (CGSize)dk_sizeWithFont:(UIFont *)font constrainedToHeight:(CGFloat)height;
+- (CGSize)dk_sizeWithFont:(UIFont *)font
+      constrainedToHeight:(CGFloat)height;
 
 @end

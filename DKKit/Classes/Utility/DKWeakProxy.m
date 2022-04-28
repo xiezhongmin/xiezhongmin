@@ -35,7 +35,7 @@
 /*!
  *  @brief  弱引用代理对象
  */
-@interface DKWeakProxy()
+@interface DKWeakProxy ()
 
 @property (nonatomic, weak) id target;
 

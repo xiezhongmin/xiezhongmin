@@ -10,6 +10,36 @@
 
 @interface NSObject (DKRuntime)
 
+#pragma mark - Runtime 基本方法 -
+
+/**
+ *  获取类方法的 Method
+ *
+ *  @param aSel aSel
+ *
+ *  @return aSel 的 Method
+ */
++ (Method)dk_classMethodFromSel:(SEL)aSel;
+
+/**
+ *  获取实例方法的 Method
+ *
+ *  @param aSel aSel
+ *
+ *  @return aSel 的 Method
+ */
++ (Method)dk_instanceMethodFromSel:(SEL)aSel;
+
+/**
+ *  获取实例方法的 IMP
+ *
+ *  @param aSel aSel
+ *
+ *  @return aSel 的 IMP
+ */
++ (IMP)dk_instanceImpFromSel:(SEL)aSel;
+
+
 #pragma mark - Swizzle Method -
 /**
  *  实例方法交换

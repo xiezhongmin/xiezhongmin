@@ -9,20 +9,25 @@
 
 @implementation NSObject (DKRuntime)
 
-+ (Method)dk_instanceMethod:(SEL)aSel
++ (IMP)dk_instanceImpFromSel:(SEL)aSel
+{
+    return class_getMethodImplementation(self, aSel);
+}
+
++ (Method)dk_instanceMethodFromSel:(SEL)aSel
 {
     return class_getInstanceMethod(self, aSel);
 }
 
-+ (Method)dk_classMethod:(SEL)aSel
++ (Method)dk_classMethodFromSel:(SEL)aSel
 {
     return class_getClassMethod(self, aSel);
 }
 
 + (BOOL)dk_swizzleInstanceMethod:(SEL)origSel with:(SEL)newSel
 {
-    Method origMethod = [self dk_instanceMethod:origSel];
-    Method newMethod = [self dk_instanceMethod:newSel];;
+    Method origMethod = [self dk_instanceMethodFromSel:origSel];
+    Method newMethod = [self dk_instanceMethodFromSel:newSel];;
     if (!origMethod || !newMethod) return NO;
     
     class_addMethod(self,

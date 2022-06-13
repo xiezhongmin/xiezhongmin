@@ -30,7 +30,7 @@
     }
     
     if (error) {
-        DKLog(@"JSON Parse Error-----%@", error);
+        DKLogError(@"JSON Parse Error-----%@", error);
     }
     
     return result;

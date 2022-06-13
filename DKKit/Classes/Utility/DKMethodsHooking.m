@@ -58,7 +58,7 @@
     IMP implementation = imp_implementationWithBlock(block);
     BOOL ret = class_addMethod(cls, swizzledSelector, implementation, method_getTypeEncoding(originalMethod));
     if (!ret) {
-        DKLog(@"class_addMethod failed, %@:%@ -> %@", NSStringFromClass(cls), NSStringFromSelector(originalSelector), NSStringFromSelector(swizzledSelector));
+        DKLogError(@"class_addMethod failed, %@:%@ -> %@", NSStringFromClass(cls), NSStringFromSelector(originalSelector), NSStringFromSelector(swizzledSelector));
     }
     
     Method newMethod = class_getInstanceMethod(cls, swizzledSelector);

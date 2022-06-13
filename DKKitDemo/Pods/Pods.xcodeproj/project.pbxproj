@@ -7,241 +7,236 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00209B935AD4D9F00A3ACACB018F944A /* NSString+DKMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3349A96AB2372570160020008C271E /* NSString+DKMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		040D3EAC9F504AAB462DE238A2DED774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CF5426D4E8CAEE4B58B02F4ECD1844 /* Foundation.framework */; };
+		05B67036C5E4FA8EB95D15A5C33ACE0B /* NSArray+DKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EADD14CDC42DC9F4B891E2E8F7446A4 /* NSArray+DKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06894B47DB30E887E750EF15DBD91953 /* DKKit-DKKit in Resources */ = {isa = PBXBuildFile; fileRef = F0B4D3475870E40A98AE787005FEB801 /* DKKit-DKKit */; };
 		0C4CE958AA11815C8EBBF8295DE8EC15 /* Pods-DKKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0386760F0B15A735D611C6BA61B65077 /* Pods-DKKitDemo-dummy.m */; };
-		11B20CCB8EA5BF4CE168FD6840641750 /* DKKitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 763407A94A47AE92AE83AC1492CB434D /* DKKitMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AC69900C3E41C727E801CA0436E30EE /* DKDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E800D423F108C5AA8800ED83D29E9EE /* DKDebug.m */; };
+		0CDF438651FAF14BF15EE4A51F92DC39 /* UIControl+DKBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 33775703ECBF1AC5FD0124BFB3CA274F /* UIControl+DKBlock.m */; };
+		0D6E9A7C275D915952CDCB6D3AB7D944 /* DKWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D15257F3C2DF673FE81F882E06F6E002 /* DKWeakProxy.m */; };
+		14F3C220D141DA1CC29C54D98DCC6B1D /* NSObject+DKRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CAD63B88129BE7EB5C9581748111D5 /* NSObject+DKRuntime.m */; };
+		15A9BBE573A58AF9DF34AA7B2C059291 /* NSString+DKMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 334A7DD7AC95AC70505144FAD30855C3 /* NSString+DKMD5.m */; };
+		1D8EC9A6AE98FE1B2A92F1206B4D56B6 /* DKStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DA245485132F87CB4BD0FBCC1CB57B /* DKStringUtils.m */; };
 		1E069F5F26465A3159FC9F494CBB3ABB /* Pods-DKKitDemo-DKKitDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B64196037202A6909E18A284F64D07BF /* Pods-DKKitDemo-DKKitDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E076EDA56E6A834FE1A1EE3F9B2A6FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AD4C50E1BEC67767D092DEB0BD70AE /* CoreGraphics.framework */; };
-		2013AD157E689CEDAFC6599AE0EB355B /* NSData+DKEncodeAndDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D89D8AC021E8E0C713C175C57E7104 /* NSData+DKEncodeAndDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		204DE5AE73DFE8BB8D9228F65B7E61CD /* NSObject+DKRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 4361A25D65C8B161EBA745E2243FE6F3 /* NSObject+DKRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		239B8D884C99DF810B4E70CCC5D80CBB /* UIButton+DKExpandTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CDAFCA5580A06A429D260AC001DD14 /* UIButton+DKExpandTouchArea.m */; };
-		24903986CFA9FA5E3E9687A2B42B6DE0 /* NSDictionary+DKSafeAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 40ED4C447B6A9C4F17EA51619069AC9E /* NSDictionary+DKSafeAccess.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25BE0D1CF6CB04BFC15E50F08C0ACB84 /* DKDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 86161880A86388B02DBA4723E96CC31A /* DKDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26C63AEC54458C869741A3D88090CD1D /* NSString+DKSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 964BD86BC681BEBC02CBDBD1E496C069 /* NSString+DKSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2ADD1151BA049A67CA9DACEBCBE51280 /* NSAttributedString+DKAttributed.h in Headers */ = {isa = PBXBuildFile; fileRef = C824EEBD6C971D4BFD368EF21DDD73A1 /* NSAttributedString+DKAttributed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21729DD535C0349B45B6BE526BE69344 /* DKKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C38A613EA47F8A02F84A879DB64C5AA /* DKKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2887CD3C9A33F8CB7A67DAD6E2D185A5 /* DKDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E800D423F108C5AA8800ED83D29E9EE /* DKDebug.m */; };
 		3055AFD44ED1A49343135C62D3FC1E9A /* Pods-DKKitDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7C8834B1DEE2282511469486E7EAC5 /* Pods-DKKitDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B2D226162D69D8D3D16604B29B26C8B /* NSArray+DKBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9097CEEE00F038A19430485B99580FC9 /* NSArray+DKBlock.m */; };
-		3CCE205BFCF11EB5A0F1159BC9E54A5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA25B0A012582AD7C54C090E8AC47D2F /* UIKit.framework */; };
-		3CED6F4C18C35365333126EFD04BE4E4 /* NSDictionary+DKSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = E12D961A7F8E5C0885146A54AA58448F /* NSDictionary+DKSafeAccess.m */; };
-		3E36A7F21813EFA69F54CC6C0E6398E6 /* NSArray+DKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CB463DA9CCEF1173F3F168D859CAD2 /* NSArray+DKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40FC5D668EFC2B2980B3537B1DCE4509 /* DKStringUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 44133BAFDA0411AE9EEFA67E1CC15202 /* DKStringUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		468413DF75B7F68E5AD43111EBBEAD66 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5885D9F69E9938FC8044271C7FDF3A49 /* QuartzCore.framework */; };
-		46AC9F3E334F1B7E1C01204A75EF561F /* UITextField+DKPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F03815E8DDC2BF751332FCC03D51988 /* UITextField+DKPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		482D14876BE4593D31A44E90D57CB5DA /* DKTextSizeCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CF61B5158D540BFF53C1C74BBCD97F /* DKTextSizeCalculate.m */; };
-		4B5E6E1FEC91A0E9F6C0F1BB6B0496D5 /* NSDictionary+DKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 770117DF0DAF0ED3E44A00A91C33FDA0 /* NSDictionary+DKModel.m */; };
-		58408B838ACC165B8ED2B35E6263F7BA /* NSObject+DKSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCD8807FB623FE258E15202BFD51C8B /* NSObject+DKSelector.m */; };
-		5E3B6495B1AEB9E1E8B8B73E603B45CE /* NSDate+DKFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD068C41ED3FD969BC22D75E018457 /* NSDate+DKFormat.m */; };
-		5FA51025CC00C4DD70FC10FEE5C4A7F7 /* NSObject+DKTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE08C5048A44422AE3C1DCFC30CB4DD /* NSObject+DKTopViewController.m */; };
-		6139CF51FA88FBB42EA129208F7E64D6 /* NSDate+DKFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = A23AB4C008EE0A1EB4AD3F92A94544C8 /* NSDate+DKFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		615F7F59D4F10996C3A42A9C5F9A9415 /* DKTextSizeCalculate.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D9AF89750ACD4A38168A0CBFF0196D /* DKTextSizeCalculate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		376C7CBCE5471A673E46F360D66CFFB5 /* NSDate+DKFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = C242F5D1EC1C938443E801513E2962EC /* NSDate+DKFormat.m */; };
+		3A7EACF39F695694DBCBB6C52A7EFDF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA25B0A012582AD7C54C090E8AC47D2F /* UIKit.framework */; };
+		3D389E0527C435B4B7C53A06C3544D9B /* NSObject+DKSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B4FEE8B90AC9EE8711FCEBCFF7AD6B /* NSObject+DKSelector.m */; };
+		3DEE01BA02D58A278D88B553F83F46C8 /* UIControl+DKThrottle.h in Headers */ = {isa = PBXBuildFile; fileRef = E157877DF5A41037564FA77C14532823 /* UIControl+DKThrottle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E01612FA66693D94F7DF793928EE254 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5885D9F69E9938FC8044271C7FDF3A49 /* QuartzCore.framework */; };
+		4CB9CAD90DDBF680F8FEE7D87F71336B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B19898EAB4744C93F0F3013226EF7F /* CoreImage.framework */; };
+		5252CD5717FFD80CF2511A9AF19C3163 /* NSObject+DKTopViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD769F25DC191BD6FF5D9907875C04E8 /* NSObject+DKTopViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59F2AEBA013C2C190102861A98F25307 /* DKKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8EED7B433720973EDD09A720658CB3 /* DKKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E0C6F65BA23BFFB15DB9ED624042065 /* NSDictionary+DKSafeAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = ED8D15F94706C637EDFDB1B4067B5A28 /* NSDictionary+DKSafeAccess.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1C6FF4FD2B802178C736CC98CD2F0B /* UIView+DKIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = E58B86BA7885BE2C58284D3A82CB63B8 /* UIView+DKIBInspectable.m */; };
+		62F6B39269865863F37D07FC87825343 /* NSString+DKMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E6B3282F141FC82C7E96A20DECEE26 /* NSString+DKMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63726BA036B4D75055AE92748D78144E /* NSData+DKEncodeAndDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0617E87C29571E970BDCA19AB3C76219 /* NSData+DKEncodeAndDecode.m */; };
 		647E4795C8456090693FB8A20675142F /* Pods-DKKitDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F082159A3513E5960B947241762AD01 /* Pods-DKKitDemoTests-dummy.m */; };
-		659FBCAB5C438AFD13CE60095ACD50A3 /* UIControl+DKThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FB3146EBD4BC7B087016BFC1B72A59 /* UIControl+DKThrottle.m */; };
-		6734B5D4B4407CDC22B1FF0DE654F95D /* DKKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 505FAB38A509B639593784DDFB9E2AC2 /* DKKit-dummy.m */; };
+		661676EBDD873D922C5C517E125F9C84 /* DKStringUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7549D423946A19B35D795B07AC07B092 /* DKStringUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		671490C614772A382C4943E32ABDD783 /* NSAttributedString+DKAttributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FED9EFBD33DB743CC5804B1D2A217E0 /* NSAttributedString+DKAttributed.m */; };
+		683008082D7492E310343A4F17B70F4A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662BB7C6EE6C81EDAF47A2DAFF7A134B /* CoreFoundation.framework */; };
+		694DEE3829A273D233ACC3E48F31E19B /* DKMethodsHooking.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDECA679C597750ADCE70DB7C53287E /* DKMethodsHooking.m */; };
 		6A896DCBA798E7322DA8A887B3E2D295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CF5426D4E8CAEE4B58B02F4ECD1844 /* Foundation.framework */; };
-		6BA831D1EE79AB043BEA02F0DA4B2B5C /* NSString+DKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF77E13702F5603D1EB883331C27809 /* NSString+DKModel.m */; };
-		70586C1F731A1C3137CEE087FA6BFBE6 /* NSString+DKMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B892344575A816EFC4CB12FC66A8B3 /* NSString+DKMD5.m */; };
-		70BF7933673475528BF0B8B79DDF51AF /* UIControl+DKBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = B4684C92BEB3E0EEEA5948901A70AB95 /* UIControl+DKBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71A2E7F95E33C78FC9091A5A75A8ECC4 /* UITextField+DKPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C06CE053467F66997A297DD67FAD2 /* UITextField+DKPlaceholder.m */; };
-		72B34BB307A3A5AA5F218A38D3ECAE1B /* DKKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8EED7B433720973EDD09A720658CB3 /* DKKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		737B9F020F30876E68A74480B2A86D9E /* UIView+DKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5624C68057BAE751C5F2DC347857B3BB /* UIView+DKUtils.m */; };
-		788D5CCCEC173E26EB026964E3E7A5C9 /* UIView+DKIBInspectable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DB9ADFAC7581E7C097F06501D7C9 /* UIView+DKIBInspectable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B305687B5FFE86B4D8D4428A43C817E /* NSDictionary+DKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F15764D7A7D6C70E49099DAA6F5BC8DE /* NSDictionary+DKModel.m */; };
+		6D63D6117238A13EA62EA1DA5AF9C398 /* NSAttributedString+DKAttributed.h in Headers */ = {isa = PBXBuildFile; fileRef = DACFE1E78336F3F2405284BA0B68CF68 /* NSAttributedString+DKAttributed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F087DF2B7B9E9F12E1E6D700A507C58 /* NSObject+DKRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB7CB07FA70031CA89589972A4D202D /* NSObject+DKRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		724E12FC2B8009DE6A0DD86BC95074C9 /* DKTextSizeCalculate.h in Headers */ = {isa = PBXBuildFile; fileRef = D96C17AC92679845E0A8CE7E6526632F /* DKTextSizeCalculate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		729C373DE1288D88A6B922FF08F0DC1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CF5426D4E8CAEE4B58B02F4ECD1844 /* Foundation.framework */; };
+		761F938D7C93512A3A94C80D86B37642 /* NSObject+DKSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = D77AB92B16754FEA41B7FE789F5D3122 /* NSObject+DKSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F59AB6C31CA543958D749694545E30 /* UIView+DKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A532EA92F51E2A5D5F905290FF606963 /* UIView+DKUtils.m */; };
 		7CDA29F5B786B0FFF54505EFE7EFCE7C /* Pods-DKKitDemo-DKKitDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA6B5C53D6D41DDF385D4E61CC84C /* Pods-DKKitDemo-DKKitDemoUITests-dummy.m */; };
-		7DD29598D48CB5E6E0E01DFD9B6D1793 /* NSDictionary+DKBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 773789C6B022B904CA29297DECA7DBB9 /* NSDictionary+DKBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82EF23281ACCA3FB2295FE0A6D78C610 /* NSAttributedString+DKAttributed.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C23A5566BFC55A12C2B43123C7583 /* NSAttributedString+DKAttributed.m */; };
-		837A1BDF269844455F275F66946ACCF2 /* NSObject+DKSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 7171772B4767551F2A8B64955CA447DF /* NSObject+DKSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		861B6EA7E13A50DD8844616089270607 /* UIView+DKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B532A15805FB8367ABD980C7D4C6C5D /* UIView+DKUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86A670DAA39200367AD1F955FB611D5A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CA69F4A444C8A2ED410FC870FB108F /* AssetsLibrary.framework */; };
 		870DF099459E685B61E37B0B75DA03A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CF5426D4E8CAEE4B58B02F4ECD1844 /* Foundation.framework */; };
-		9387310A67EAF7A70EB4E2CDE030ECAD /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C419C3AB4EAB5D8C4EAB090D1457931 /* ImageIO.framework */; };
-		960FF36D08AA40CC1556B32EB9EC32BE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF8E401F4E19A5FB11BF2D87887BBB0 /* CoreText.framework */; };
-		9C4C0D24A3A6B340FB0FA4CEAC12C392 /* DKWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF0789D1F4A361EC464BA2F469EEECE /* DKWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0BA491B4C7A5E976F0FA7DC6A126CE9 /* NSArray+DKSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = D13FE4FD0E8BB98FED77D3C0FC02FA7C /* NSArray+DKSafeAccess.m */; };
-		A490B7D49668539B8E93D756E64E9280 /* NSArray+DKBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D786F17B09A9E58BC3F03181E18675 /* NSArray+DKBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A803ECF17412A2A5648ECC7880F82424 /* NSObject+DKRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E91D82FDEF964C0C9FF4C29C2BDDF7A /* NSObject+DKRuntime.m */; };
-		AC1ABF5293B00E38D3ABD1D136A034C4 /* UIControl+DKThrottle.h in Headers */ = {isa = PBXBuildFile; fileRef = B65407A2721EC5BB5F76819EE42ACD99 /* UIControl+DKThrottle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFDE89C694273200AE529E95C3129C13 /* UIControl+DKBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F9A7BE2CC41F63887147E048483485 /* UIControl+DKBlock.m */; };
-		B3638B8E6FA6AF9A75267382D045A888 /* NSString+DKSize.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE4D59A6BFB0C8F94E8D07B8FEF9A1E /* NSString+DKSize.m */; };
-		B797803949AA24B95E796EA91573EA7E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662BB7C6EE6C81EDAF47A2DAFF7A134B /* CoreFoundation.framework */; };
-		B8E038AF425FA5F3A3D2EEA963F905ED /* NSObject+DKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF792129158AA35DDC777CD7F69E137 /* NSObject+DKModel.m */; };
-		BD9A69DDF0772C49546506730C694527 /* DKKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C38A613EA47F8A02F84A879DB64C5AA /* DKKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C65DB223B1F430F581BBBC7575AE94A9 /* DKWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B1507BD809592D0043783BE251E82B /* DKWeakProxy.m */; };
-		C73D0E2863E195876C9BEF2E3748AD92 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B19898EAB4744C93F0F3013226EF7F /* CoreImage.framework */; };
-		CD887A2520296C61E0A2051426047D35 /* UIView+DKIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3A65AE9CA171BCC2C695343D758D24 /* UIView+DKIBInspectable.m */; };
-		CE5629968D819E24C182AA599BBF0982 /* DKKit-DKKit in Resources */ = {isa = PBXBuildFile; fileRef = F0B4D3475870E40A98AE787005FEB801 /* DKKit-DKKit */; };
+		8A56357D1CC49EAD5B6A67DE05250D14 /* NSDate+DKFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = AB80CCA3D54A8470F165C994CDCBB018 /* NSDate+DKFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A9003A00D0A377D2B15647FF6C3EA8C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF8E401F4E19A5FB11BF2D87887BBB0 /* CoreText.framework */; };
+		8D5A03D993125AB03BA0A3E94E45CDDD /* DKDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 86161880A86388B02DBA4723E96CC31A /* DKDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EDB45D433AB5E701C9E37D841DD5DCE /* NSDictionary+DKBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 77DE4C3BAA3BCA950F192DDBB521CCC1 /* NSDictionary+DKBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9338E772AFA0EF71C887EFA49124231B /* DKKitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6D249E0740BAF4245CCB142E22121A /* DKKitMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94029AD2E416341C577577A5D5B4377D /* NSString+DKSize.m in Sources */ = {isa = PBXBuildFile; fileRef = AC796214D646A2C447EB6E2BEFF8FC44 /* NSString+DKSize.m */; };
+		957CCD953BC8D55C71440D02FA4B5DB4 /* NSString+DKSize.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8AA91353A46478238886C5B6230D90 /* NSString+DKSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98920FD552E9719579C6679E88D80822 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C419C3AB4EAB5D8C4EAB090D1457931 /* ImageIO.framework */; };
+		9B4EC596A8189DB13D9D451555B938D1 /* UIButton+DKExpandTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 2726165198CAC6A6A573659FE83E0E3E /* UIButton+DKExpandTouchArea.m */; };
+		9CB49C7F98F083DA2CE25F243FE22632 /* NSString+DKEncodeAndDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED84F3CC17EE5E3AF9EB8DA3CFAB353 /* NSString+DKEncodeAndDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CC41E5ED2201F200A3F908885FDC960 /* UIControl+DKThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D85612D32226A5BE9F73C0E9274D4 /* UIControl+DKThrottle.m */; };
+		A336FD8ACF24F458F893116CA59D5B17 /* UIView+DKIBInspectable.h in Headers */ = {isa = PBXBuildFile; fileRef = E7380A53E215ABE6FB25EDC39CE59543 /* UIView+DKIBInspectable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A62A23A8DB5F9B9E06D6BDB268F817F3 /* NSArray+DKBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = DAAC7156889BE0E4F49D51C6A7D72368 /* NSArray+DKBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A78D0DD93D2157D26999ADFE2235597F /* NSArray+DKBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E24372AC70D6EBAA3D12EB665D5F95D /* NSArray+DKBlock.m */; };
+		A96223994C89EC6323065BFC48365C96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AD4C50E1BEC67767D092DEB0BD70AE /* CoreGraphics.framework */; };
+		AB47BEBDC0446BF997CDA240F63C4304 /* NSData+DKEncodeAndDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A07C34E7EDFF982BBB41A5D853B9235 /* NSData+DKEncodeAndDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABC4AE3B77BACDA3155C8F47543FB2E3 /* NSArray+DKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BEADDFE9E654A81F171812569486DF /* NSArray+DKModel.m */; };
+		AF04E1E1776CA6AAD47202F9F07EB162 /* NSDictionary+DKSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD307B97A6133A8609A9273EBB1686C /* NSDictionary+DKSafeAccess.m */; };
+		B823BAB8D08443BDDD1FEAED823E578A /* NSString+DKEncodeAndDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AB9F5D3F31E331407A1F834C11BAFD /* NSString+DKEncodeAndDecode.m */; };
+		B988EDC9C38FEB524D4F7359AC9360A0 /* DKWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = AA12C3A12D42115BC4BFF4CDA6462A39 /* DKWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCD7EBF8BF5AE36E5434B586E39FA1DA /* NSDictionary+DKBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = BF12BDA84AECEBEDF712755A2294E80E /* NSDictionary+DKBlock.m */; };
+		C45E6FE295731B26897EC303FA655461 /* NSString+DKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AFE7EE617D9ADBA546BFA5672B8A121 /* NSString+DKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6DA99AD4D4659F99E291FFC601DAA54 /* DKKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 505FAB38A509B639593784DDFB9E2AC2 /* DKKit-dummy.m */; };
+		C87AE2BD745F5EFFB5D2562DEA141A47 /* NSObject+DKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418A6B9F4D8D07EBB1D4080209BAE21 /* NSObject+DKModel.m */; };
+		C9F5DF457E2FD76893CBC5BCE175F189 /* NSArray+DKSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F4AAC95B7563D1A3D9FEAE4A6E2868 /* NSArray+DKSafeAccess.m */; };
+		CE39EA5D1B5F1ECA2BD8633CFB4A2DEE /* NSString+DKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1F2A5884AB2C726BCC40CC314101ED /* NSString+DKModel.m */; };
+		CF55E281EF129077F01A956E6E800907 /* UITextField+DKPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 704EB37837996A50CBF45019997217EA /* UITextField+DKPlaceholder.m */; };
 		D0DAD6F85A847C3734AF52FC6ABE36B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CF5426D4E8CAEE4B58B02F4ECD1844 /* Foundation.framework */; };
-		D4C23227BD87EC5A7A73F1D5AC43A5F0 /* UIButton+DKExpandTouchArea.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F7B3DE484730D8D7E66AAB4C2BA2EC /* UIButton+DKExpandTouchArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8EF34781F912258BE5340680FF7BC9F /* DKStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A72A912CE6B7C283F4773A50A94B54AA /* DKStringUtils.m */; };
-		DA937FE1D634AB78AFFFE4904C76BE88 /* NSString+DKEncodeAndDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 766388C4A783E97F8FE16084F1AA10B1 /* NSString+DKEncodeAndDecode.m */; };
-		DABC50EB5D8248B25D811237F5F5FEFB /* NSDictionary+DKBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CD4B862441894F53C77616EEAD0B58 /* NSDictionary+DKBlock.m */; };
-		E28FA16ED49EC4E9F05A47EB5009FAE9 /* NSString+DKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7C8DBF26D0D903D7BDE1070DA5A02F /* NSString+DKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E43FBE253B6683C25FD562E71E55C7FD /* NSArray+DKSafeAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = C740BAB655BC12647A875FF034B29788 /* NSArray+DKSafeAccess.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6944C0DB01A8252F65891A0D56A1348 /* NSArray+DKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AE1D84A32D919ED24B27815390BE59 /* NSArray+DKModel.m */; };
+		D55E5BE9B3DD773E0F74592F9B81C42B /* NSArray+DKSafeAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF9BE2530957A71A8578CBCB8825359 /* NSArray+DKSafeAccess.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5A5E51F00FA759732719F64F292B096 /* NSObject+DKTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1418C6CAC41A2335D073CF2F19C6ADE6 /* NSObject+DKTopViewController.m */; };
+		D7F7931852F89189A79ABFF6F9455916 /* DKTextSizeCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = F23B964F69FF7273EF2DC901C5DF9FF9 /* DKTextSizeCalculate.m */; };
+		D852A7490D3084ABAE1EC100D0DB646B /* UIView+DKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B54B36540F565BEDDBD74B456B1B854 /* UIView+DKUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9693B64EFC44B9DFCF17F80A8E65C49 /* UIControl+DKBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 353A3741B5DBA7D918BD6C3FB6FD3835 /* UIControl+DKBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E11348CCBB3BAAC1D63B3C9AE82D35F3 /* UIButton+DKExpandTouchArea.h in Headers */ = {isa = PBXBuildFile; fileRef = BF32886B7BE1A9D84E4EDC3CB2F926C7 /* UIButton+DKExpandTouchArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E295A8A6518BD623C5F5734F539B984F /* NSDictionary+DKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 82EFBA93CA0B595EF42A16980D6EBB19 /* NSDictionary+DKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55B904E29D568E86647DA9D92334AFD /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CA69F4A444C8A2ED410FC870FB108F /* AssetsLibrary.framework */; };
+		E8A119386146873E052EA1994928AD83 /* UITextField+DKPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = E63C5DE754309FAD0701C83E479DF4F5 /* UITextField+DKPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9658EA50C92888A705CDFAE6217ECE1 /* DKMethodsHooking.h in Headers */ = {isa = PBXBuildFile; fileRef = E77C9530B6B8DF4EDAC6DD0C51896D2A /* DKMethodsHooking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9CB06E6339B975EC4A442A630DAB4A3 /* Pods-DKKitDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F2850144A7D8AF5804FE26EC20F5694 /* Pods-DKKitDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC1B2EF59810A168CED20D69A5337606 /* NSObject+DKTopViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 496E8970C53DF935328674F6FBDBA69F /* NSObject+DKTopViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE012D1920878428C61F28071828AF10 /* NSDictionary+DKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CDFEFAD23797B2FFD071E54DEE6A88 /* NSDictionary+DKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F46345AB6437C697B354E5141AC251BB /* NSString+DKEncodeAndDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 672645584A3617781B8A5CC5E47D1218 /* NSString+DKEncodeAndDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB2178F1E1B4029A2C0BC40B6B15F64B /* NSObject+DKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0C6E631A175CDD9BC69B25704E1609 /* NSObject+DKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFF2C66927D22DAE74E170314C71C209 /* NSData+DKEncodeAndDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3BB54C6627A62D202BD0768392C965 /* NSData+DKEncodeAndDecode.m */; };
+		EAF7AAA3B47DE72CBE1F719017511DAF /* NSObject+DKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8224B9EBC2B4053D65B8959342B53541 /* NSObject+DKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0BF4D662F4F388ACB5474E92480A731A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9695E926559C525C1C8DDC811FC99928;
-			remoteInfo = DKKit;
-		};
-		93AC6EF58B4D4661FE786F562548DF85 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9695E926559C525C1C8DDC811FC99928;
-			remoteInfo = DKKit;
-		};
-		9C35628F82C1E83DDAA6C621F6E726E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E8E298ADC67342C1A73AD845B98935EE;
-			remoteInfo = "Pods-DKKitDemo";
-		};
-		A47D7D1110E2A94A682AEC9F6C27A449 /* PBXContainerItemProxy */ = {
+		30366E4936C0BC92080F081ECFE98A1D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C5971E41C1212D219575944EB9E06BEB;
 			remoteInfo = "DKKit-DKKit";
 		};
+		81D82B2BECF28CBE60EC4F459F5A1F24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9695E926559C525C1C8DDC811FC99928;
+			remoteInfo = DKKit;
+		};
+		DE60CD37D083520C831141AB243E653A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9695E926559C525C1C8DDC811FC99928;
+			remoteInfo = DKKit;
+		};
+		FDFD83EC410FF5A5FD8ED2E38F42C144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8E298ADC67342C1A73AD845B98935EE;
+			remoteInfo = "Pods-DKKitDemo";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		032AA6B5C53D6D41DDF385D4E61CC84C /* Pods-DKKitDemo-DKKitDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKKitDemo-DKKitDemoUITests-dummy.m"; sourceTree = "<group>"; };
 		0386760F0B15A735D611C6BA61B65077 /* Pods-DKKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKKitDemo-dummy.m"; sourceTree = "<group>"; };
+		045D85612D32226A5BE9F73C0E9274D4 /* UIControl+DKThrottle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+DKThrottle.m"; sourceTree = "<group>"; };
+		0617E87C29571E970BDCA19AB3C76219 /* NSData+DKEncodeAndDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+DKEncodeAndDecode.m"; sourceTree = "<group>"; };
 		0D37A3F43157BF48D455AA9CCC7CFD50 /* DKKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKKit.debug.xcconfig; sourceTree = "<group>"; };
 		0F6850084C3363058B2ACA40B7550795 /* Pods-DKKitDemo-DKKitDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKKitDemo-DKKitDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FED9EFBD33DB743CC5804B1D2A217E0 /* NSAttributedString+DKAttributed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+DKAttributed.m"; sourceTree = "<group>"; };
+		1418C6CAC41A2335D073CF2F19C6ADE6 /* NSObject+DKTopViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DKTopViewController.m"; sourceTree = "<group>"; };
 		14EED6EBA3C18FD7AF64D218EE8D9A6E /* Pods-DKKitDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKKitDemo-Info.plist"; sourceTree = "<group>"; };
+		1AFE7EE617D9ADBA546BFA5672B8A121 /* NSString+DKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+DKModel.h"; sourceTree = "<group>"; };
 		2295F2137E1DF7D00AC1DE0EBD3019D8 /* Pods-DKKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		22B1507BD809592D0043783BE251E82B /* DKWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DKWeakProxy.m; sourceTree = "<group>"; };
 		22B5AF3D13DC62DD1A91992FDD308401 /* Pods-DKKitDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKKitDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23B4FEE8B90AC9EE8711FCEBCFF7AD6B /* NSObject+DKSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DKSelector.m"; sourceTree = "<group>"; };
 		269323D263E2420B5DE3788185599602 /* Pods-DKKitDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DKKitDemoTests.modulemap"; sourceTree = "<group>"; };
 		26CA69F4A444C8A2ED410FC870FB108F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		2726165198CAC6A6A573659FE83E0E3E /* UIButton+DKExpandTouchArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DKExpandTouchArea.m"; sourceTree = "<group>"; };
 		28B19898EAB4744C93F0F3013226EF7F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
-		31CD4B862441894F53C77616EEAD0B58 /* NSDictionary+DKBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DKBlock.m"; sourceTree = "<group>"; };
 		32D59593B8C6B38110781C101CD4FB8E /* Pods-DKKitDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DKKitDemo"; path = Pods_DKKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33CDAFCA5580A06A429D260AC001DD14 /* UIButton+DKExpandTouchArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DKExpandTouchArea.m"; sourceTree = "<group>"; };
-		38D786F17B09A9E58BC3F03181E18675 /* NSArray+DKBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+DKBlock.h"; sourceTree = "<group>"; };
-		40ED4C447B6A9C4F17EA51619069AC9E /* NSDictionary+DKSafeAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DKSafeAccess.h"; sourceTree = "<group>"; };
+		334A7DD7AC95AC70505144FAD30855C3 /* NSString+DKMD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DKMD5.m"; sourceTree = "<group>"; };
+		33775703ECBF1AC5FD0124BFB3CA274F /* UIControl+DKBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+DKBlock.m"; sourceTree = "<group>"; };
+		353A3741B5DBA7D918BD6C3FB6FD3835 /* UIControl+DKBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+DKBlock.h"; sourceTree = "<group>"; };
 		42DE84B00E0F55E519C85878BF7A37B5 /* Pods-DKKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		4361A25D65C8B161EBA745E2243FE6F3 /* NSObject+DKRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+DKRuntime.h"; sourceTree = "<group>"; };
-		44133BAFDA0411AE9EEFA67E1CC15202 /* DKStringUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKStringUtils.h; sourceTree = "<group>"; };
 		44956F351B1E73C488785BC47EA7F299 /* Pods-DKKitDemo-DKKitDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKKitDemo-DKKitDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		45D9AF89750ACD4A38168A0CBFF0196D /* DKTextSizeCalculate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKTextSizeCalculate.h; sourceTree = "<group>"; };
-		496E8970C53DF935328674F6FBDBA69F /* NSObject+DKTopViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+DKTopViewController.h"; sourceTree = "<group>"; };
-		4C3349A96AB2372570160020008C271E /* NSString+DKMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+DKMD5.h"; sourceTree = "<group>"; };
+		46E6B3282F141FC82C7E96A20DECEE26 /* NSString+DKMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+DKMD5.h"; sourceTree = "<group>"; };
+		4C1F2A5884AB2C726BCC40CC314101ED /* NSString+DKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DKModel.m"; sourceTree = "<group>"; };
 		4C38A613EA47F8A02F84A879DB64C5AA /* DKKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DKKit.h; path = DKKit/DKKit.h; sourceTree = "<group>"; };
-		4CF77E13702F5603D1EB883331C27809 /* NSString+DKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DKModel.m"; sourceTree = "<group>"; };
+		4EADD14CDC42DC9F4B891E2E8F7446A4 /* NSArray+DKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+DKModel.h"; sourceTree = "<group>"; };
 		505FAB38A509B639593784DDFB9E2AC2 /* DKKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKKit-dummy.m"; sourceTree = "<group>"; };
-		52A4625CCC97C5BA737AF3A741C8C068 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5624C68057BAE751C5F2DC347857B3BB /* UIView+DKUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+DKUtils.m"; sourceTree = "<group>"; };
+		52A4625CCC97C5BA737AF3A741C8C068 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5885D9F69E9938FC8044271C7FDF3A49 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5DB7CB07FA70031CA89589972A4D202D /* NSObject+DKRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+DKRuntime.h"; sourceTree = "<group>"; };
 		5F082159A3513E5960B947241762AD01 /* Pods-DKKitDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKKitDemoTests-dummy.m"; sourceTree = "<group>"; };
 		5F2850144A7D8AF5804FE26EC20F5694 /* Pods-DKKitDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKKitDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		5FCD8807FB623FE258E15202BFD51C8B /* NSObject+DKSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DKSelector.m"; sourceTree = "<group>"; };
-		6059DB9ADFAC7581E7C097F06501D7C9 /* UIView+DKIBInspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+DKIBInspectable.h"; sourceTree = "<group>"; };
-		62FD068C41ED3FD969BC22D75E018457 /* NSDate+DKFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DKFormat.m"; sourceTree = "<group>"; };
 		662BB7C6EE6C81EDAF47A2DAFF7A134B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		66FB3146EBD4BC7B087016BFC1B72A59 /* UIControl+DKThrottle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+DKThrottle.m"; sourceTree = "<group>"; };
-		672645584A3617781B8A5CC5E47D1218 /* NSString+DKEncodeAndDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+DKEncodeAndDecode.h"; sourceTree = "<group>"; };
-		69AE1D84A32D919ED24B27815390BE59 /* NSArray+DKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DKModel.m"; sourceTree = "<group>"; };
 		69CF5426D4E8CAEE4B58B02F4ECD1844 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A07C34E7EDFF982BBB41A5D853B9235 /* NSData+DKEncodeAndDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+DKEncodeAndDecode.h"; sourceTree = "<group>"; };
 		6C419C3AB4EAB5D8C4EAB090D1457931 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		6ED84F3CC17EE5E3AF9EB8DA3CFAB353 /* NSString+DKEncodeAndDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+DKEncodeAndDecode.h"; sourceTree = "<group>"; };
+		704EB37837996A50CBF45019997217EA /* UITextField+DKPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DKPlaceholder.m"; sourceTree = "<group>"; };
 		70AD4C50E1BEC67767D092DEB0BD70AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		7171772B4767551F2A8B64955CA447DF /* NSObject+DKSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+DKSelector.h"; sourceTree = "<group>"; };
 		7337CF353B593010DE8DB523F05786A7 /* Pods-DKKitDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKKitDemoTests-Info.plist"; sourceTree = "<group>"; };
-		763407A94A47AE92AE83AC1492CB434D /* DKKitMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKKitMacro.h; sourceTree = "<group>"; };
-		766388C4A783E97F8FE16084F1AA10B1 /* NSString+DKEncodeAndDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DKEncodeAndDecode.m"; sourceTree = "<group>"; };
-		770117DF0DAF0ED3E44A00A91C33FDA0 /* NSDictionary+DKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DKModel.m"; sourceTree = "<group>"; };
-		773789C6B022B904CA29297DECA7DBB9 /* NSDictionary+DKBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DKBlock.h"; sourceTree = "<group>"; };
-		7AE08C5048A44422AE3C1DCFC30CB4DD /* NSObject+DKTopViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DKTopViewController.m"; sourceTree = "<group>"; };
-		7C7C8DBF26D0D903D7BDE1070DA5A02F /* NSString+DKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+DKModel.h"; sourceTree = "<group>"; };
+		73AB9F5D3F31E331407A1F834C11BAFD /* NSString+DKEncodeAndDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DKEncodeAndDecode.m"; sourceTree = "<group>"; };
+		7549D423946A19B35D795B07AC07B092 /* DKStringUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKStringUtils.h; sourceTree = "<group>"; };
+		77DE4C3BAA3BCA950F192DDBB521CCC1 /* NSDictionary+DKBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DKBlock.h"; sourceTree = "<group>"; };
+		7AD307B97A6133A8609A9273EBB1686C /* NSDictionary+DKSafeAccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DKSafeAccess.m"; sourceTree = "<group>"; };
 		81EFBDB328C05C0C7E4082452F0DEEBD /* Pods-DKKitDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKKitDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8224B9EBC2B4053D65B8959342B53541 /* NSObject+DKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+DKModel.h"; sourceTree = "<group>"; };
+		82EFBA93CA0B595EF42A16980D6EBB19 /* NSDictionary+DKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DKModel.h"; sourceTree = "<group>"; };
 		836AA5CDAE68AE647304726430CC2F90 /* DKKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKKit-prefix.pch"; sourceTree = "<group>"; };
-		8557C05184390ED908B0A8843AA18F43 /* DKKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DKKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8418A6B9F4D8D07EBB1D4080209BAE21 /* NSObject+DKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DKModel.m"; sourceTree = "<group>"; };
+		8557C05184390ED908B0A8843AA18F43 /* DKKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DKKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		86161880A86388B02DBA4723E96CC31A /* DKDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKDebug.h; sourceTree = "<group>"; };
 		87D4011BEF4FECAA68DDE8911695980B /* Pods-DKKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKKitDemo.release.xcconfig"; sourceTree = "<group>"; };
-		8AF792129158AA35DDC777CD7F69E137 /* NSObject+DKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DKModel.m"; sourceTree = "<group>"; };
+		8B54B36540F565BEDDBD74B456B1B854 /* UIView+DKUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+DKUtils.h"; sourceTree = "<group>"; };
 		8CE2DF8AF6F487A0219188D3B56C44AE /* Pods-DKKitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKKitDemo-frameworks.sh"; sourceTree = "<group>"; };
-		8E91D82FDEF964C0C9FF4C29C2BDDF7A /* NSObject+DKRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DKRuntime.m"; sourceTree = "<group>"; };
+		8E24372AC70D6EBAA3D12EB665D5F95D /* NSArray+DKBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DKBlock.m"; sourceTree = "<group>"; };
 		8E9A56DA6DF1755A7E971CF06CD9E1A3 /* Pods-DKKitDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DKKitDemo.modulemap"; sourceTree = "<group>"; };
-		8EF0789D1F4A361EC464BA2F469EEECE /* DKWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKWeakProxy.h; sourceTree = "<group>"; };
 		8F67FCE3A303395E1D628976FEA736BB /* Pods-DKKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		9097CEEE00F038A19430485B99580FC9 /* NSArray+DKBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DKBlock.m"; sourceTree = "<group>"; };
-		964BD86BC681BEBC02CBDBD1E496C069 /* NSString+DKSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+DKSize.h"; sourceTree = "<group>"; };
-		98D89D8AC021E8E0C713C175C57E7104 /* NSData+DKEncodeAndDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+DKEncodeAndDecode.h"; sourceTree = "<group>"; };
-		9B532A15805FB8367ABD980C7D4C6C5D /* UIView+DKUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+DKUtils.h"; sourceTree = "<group>"; };
+		96F4AAC95B7563D1A3D9FEAE4A6E2868 /* NSArray+DKSafeAccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DKSafeAccess.m"; sourceTree = "<group>"; };
 		9C69A716A904C29CC53A588D03A45A2D /* Pods-DKKitDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKKitDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E800D423F108C5AA8800ED83D29E9EE /* DKDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DKDebug.m; sourceTree = "<group>"; };
-		9F03815E8DDC2BF751332FCC03D51988 /* UITextField+DKPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+DKPlaceholder.h"; sourceTree = "<group>"; };
-		A23AB4C008EE0A1EB4AD3F92A94544C8 /* NSDate+DKFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+DKFormat.h"; sourceTree = "<group>"; };
-		A66C23A5566BFC55A12C2B43123C7583 /* NSAttributedString+DKAttributed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+DKAttributed.m"; sourceTree = "<group>"; };
-		A6CF61B5158D540BFF53C1C74BBCD97F /* DKTextSizeCalculate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DKTextSizeCalculate.m; sourceTree = "<group>"; };
-		A72A912CE6B7C283F4773A50A94B54AA /* DKStringUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DKStringUtils.m; sourceTree = "<group>"; };
-		A9B892344575A816EFC4CB12FC66A8B3 /* NSString+DKMD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DKMD5.m"; sourceTree = "<group>"; };
-		ADE4D59A6BFB0C8F94E8D07B8FEF9A1E /* NSString+DKSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DKSize.m"; sourceTree = "<group>"; };
+		A532EA92F51E2A5D5F905290FF606963 /* UIView+DKUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+DKUtils.m"; sourceTree = "<group>"; };
+		AA12C3A12D42115BC4BFF4CDA6462A39 /* DKWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKWeakProxy.h; sourceTree = "<group>"; };
+		AB80CCA3D54A8470F165C994CDCBB018 /* NSDate+DKFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+DKFormat.h"; sourceTree = "<group>"; };
+		AC796214D646A2C447EB6E2BEFF8FC44 /* NSString+DKSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DKSize.m"; sourceTree = "<group>"; };
+		AD769F25DC191BD6FF5D9907875C04E8 /* NSObject+DKTopViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+DKTopViewController.h"; sourceTree = "<group>"; };
 		AFBF781F059BB19171E65407B543B9CC /* DKKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DKKit; path = DKKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFDAF216BC1885E545713846E8B3EF2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AFDAF216BC1885E545713846E8B3EF2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B3A4885824197A04DC85168F2D97829C /* Pods-DKKitDemo-DKKitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKKitDemo-DKKitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B4684C92BEB3E0EEEA5948901A70AB95 /* UIControl+DKBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+DKBlock.h"; sourceTree = "<group>"; };
 		B64196037202A6909E18A284F64D07BF /* Pods-DKKitDemo-DKKitDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKKitDemo-DKKitDemoUITests-umbrella.h"; sourceTree = "<group>"; };
-		B65407A2721EC5BB5F76819EE42ACD99 /* UIControl+DKThrottle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+DKThrottle.h"; sourceTree = "<group>"; };
+		B8BEADDFE9E654A81F171812569486DF /* NSArray+DKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DKModel.m"; sourceTree = "<group>"; };
 		BD790A47FD0C4A52FF92BE12BBEB753B /* Pods-DKKitDemo-DKKitDemoUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DKKitDemo-DKKitDemoUITests"; path = Pods_DKKitDemo_DKKitDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8AA91353A46478238886C5B6230D90 /* NSString+DKSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+DKSize.h"; sourceTree = "<group>"; };
 		BD8EED7B433720973EDD09A720658CB3 /* DKKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKKit-umbrella.h"; sourceTree = "<group>"; };
+		BF12BDA84AECEBEDF712755A2294E80E /* NSDictionary+DKBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DKBlock.m"; sourceTree = "<group>"; };
+		BF32886B7BE1A9D84E4EDC3CB2F926C7 /* UIButton+DKExpandTouchArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+DKExpandTouchArea.h"; sourceTree = "<group>"; };
 		BF7C8834B1DEE2282511469486E7EAC5 /* Pods-DKKitDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKKitDemo-umbrella.h"; sourceTree = "<group>"; };
 		BFF8E401F4E19A5FB11BF2D87887BBB0 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		C0F9A7BE2CC41F63887147E048483485 /* UIControl+DKBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+DKBlock.m"; sourceTree = "<group>"; };
+		C0CAD63B88129BE7EB5C9581748111D5 /* NSObject+DKRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DKRuntime.m"; sourceTree = "<group>"; };
+		C0DA245485132F87CB4BD0FBCC1CB57B /* DKStringUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DKStringUtils.m; sourceTree = "<group>"; };
+		C242F5D1EC1C938443E801513E2962EC /* NSDate+DKFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DKFormat.m"; sourceTree = "<group>"; };
 		C4FF28D7B00DB30214CB973A284A3D7E /* Pods-DKKitDemo-DKKitDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKKitDemo-DKKitDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
-		C740BAB655BC12647A875FF034B29788 /* NSArray+DKSafeAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+DKSafeAccess.h"; sourceTree = "<group>"; };
-		C824EEBD6C971D4BFD368EF21DDD73A1 /* NSAttributedString+DKAttributed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+DKAttributed.h"; sourceTree = "<group>"; };
 		CCB2DDD42CB96ABF7B6030EA20184DC9 /* Pods-DKKitDemoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DKKitDemoTests"; path = Pods_DKKitDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF3A65AE9CA171BCC2C695343D758D24 /* UIView+DKIBInspectable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+DKIBInspectable.m"; sourceTree = "<group>"; };
-		D13FE4FD0E8BB98FED77D3C0FC02FA7C /* NSArray+DKSafeAccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DKSafeAccess.m"; sourceTree = "<group>"; };
-		D4F7B3DE484730D8D7E66AAB4C2BA2EC /* UIButton+DKExpandTouchArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+DKExpandTouchArea.h"; sourceTree = "<group>"; };
+		CEDECA679C597750ADCE70DB7C53287E /* DKMethodsHooking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DKMethodsHooking.m; sourceTree = "<group>"; };
+		D15257F3C2DF673FE81F882E06F6E002 /* DKWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DKWeakProxy.m; sourceTree = "<group>"; };
+		D77AB92B16754FEA41B7FE789F5D3122 /* NSObject+DKSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+DKSelector.h"; sourceTree = "<group>"; };
 		D7EE038B986924DEE4DC992CFC35628F /* Pods-DKKitDemo-DKKitDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DKKitDemo-DKKitDemoUITests.modulemap"; sourceTree = "<group>"; };
-		D8CDFEFAD23797B2FFD071E54DEE6A88 /* NSDictionary+DKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DKModel.h"; sourceTree = "<group>"; };
+		D96C17AC92679845E0A8CE7E6526632F /* DKTextSizeCalculate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKTextSizeCalculate.h; sourceTree = "<group>"; };
 		D986583DF8462682E0DC55A666D5E850 /* ResourceBundle-DKKit-DKKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DKKit-DKKit-Info.plist"; sourceTree = "<group>"; };
 		DA25B0A012582AD7C54C090E8AC47D2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DA3BB54C6627A62D202BD0768392C965 /* NSData+DKEncodeAndDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+DKEncodeAndDecode.m"; sourceTree = "<group>"; };
+		DAAC7156889BE0E4F49D51C6A7D72368 /* NSArray+DKBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+DKBlock.h"; sourceTree = "<group>"; };
+		DACFE1E78336F3F2405284BA0B68CF68 /* NSAttributedString+DKAttributed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+DKAttributed.h"; sourceTree = "<group>"; };
 		DB5352DA863141A9F76E343E891E7A0D /* Pods-DKKitDemo-DKKitDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKKitDemo-DKKitDemoUITests-Info.plist"; sourceTree = "<group>"; };
-		E0CB463DA9CCEF1173F3F168D859CAD2 /* NSArray+DKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+DKModel.h"; sourceTree = "<group>"; };
+		DC6D249E0740BAF4245CCB142E22121A /* DKKitMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKKitMacro.h; sourceTree = "<group>"; };
 		E11A3B94B703682516545FCC44E55EC2 /* DKKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DKKit-Info.plist"; sourceTree = "<group>"; };
-		E12D961A7F8E5C0885146A54AA58448F /* NSDictionary+DKSafeAccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DKSafeAccess.m"; sourceTree = "<group>"; };
-		E60C06CE053467F66997A297DD67FAD2 /* UITextField+DKPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DKPlaceholder.m"; sourceTree = "<group>"; };
+		E157877DF5A41037564FA77C14532823 /* UIControl+DKThrottle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+DKThrottle.h"; sourceTree = "<group>"; };
+		E58B86BA7885BE2C58284D3A82CB63B8 /* UIView+DKIBInspectable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+DKIBInspectable.m"; sourceTree = "<group>"; };
+		E63C5DE754309FAD0701C83E479DF4F5 /* UITextField+DKPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+DKPlaceholder.h"; sourceTree = "<group>"; };
+		E7380A53E215ABE6FB25EDC39CE59543 /* UIView+DKIBInspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+DKIBInspectable.h"; sourceTree = "<group>"; };
+		E77C9530B6B8DF4EDAC6DD0C51896D2A /* DKMethodsHooking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKMethodsHooking.h; sourceTree = "<group>"; };
 		E996798B0B69C107B7E64B4168F3B53F /* Pods-DKKitDemo-DKKitDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKKitDemo-DKKitDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC44394407CE18A013FD90A5A496CF94 /* Pods-DKKitDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKKitDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED8D15F94706C637EDFDB1B4067B5A28 /* NSDictionary+DKSafeAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DKSafeAccess.h"; sourceTree = "<group>"; };
 		F02664FA8980BAAA10A8CB42D91CF60D /* DKKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DKKit.modulemap; sourceTree = "<group>"; };
 		F0B4D3475870E40A98AE787005FEB801 /* DKKit-DKKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DKKit-DKKit"; path = DKKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15764D7A7D6C70E49099DAA6F5BC8DE /* NSDictionary+DKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DKModel.m"; sourceTree = "<group>"; };
+		F23B964F69FF7273EF2DC901C5DF9FF9 /* DKTextSizeCalculate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DKTextSizeCalculate.m; sourceTree = "<group>"; };
 		F30428AC9193244260A801731EB8E8ED /* DKKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKKit.release.xcconfig; sourceTree = "<group>"; };
-		FD0C6E631A175CDD9BC69B25704E1609 /* NSObject+DKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+DKModel.h"; sourceTree = "<group>"; };
+		FDF9BE2530957A71A8578CBCB8825359 /* NSArray+DKSafeAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+DKSafeAccess.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		73607EDCDF01B68F4D4773935662F969 /* Frameworks */ = {
+		4907790F748FDB00A3B448F8326C7C36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86A670DAA39200367AD1F955FB611D5A /* AssetsLibrary.framework in Frameworks */,
-				B797803949AA24B95E796EA91573EA7E /* CoreFoundation.framework in Frameworks */,
-				1E076EDA56E6A834FE1A1EE3F9B2A6FA /* CoreGraphics.framework in Frameworks */,
-				C73D0E2863E195876C9BEF2E3748AD92 /* CoreImage.framework in Frameworks */,
-				960FF36D08AA40CC1556B32EB9EC32BE /* CoreText.framework in Frameworks */,
-				040D3EAC9F504AAB462DE238A2DED774 /* Foundation.framework in Frameworks */,
-				9387310A67EAF7A70EB4E2CDE030ECAD /* ImageIO.framework in Frameworks */,
-				468413DF75B7F68E5AD43111EBBEAD66 /* QuartzCore.framework in Frameworks */,
-				3CCE205BFCF11EB5A0F1159BC9E54A5B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +264,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E46A858C364D4C4EF76FF5C0AC455DCC /* Frameworks */ = {
+		F5C5C28E7E9E8DFF29B92EC25EDF608A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55B904E29D568E86647DA9D92334AFD /* AssetsLibrary.framework in Frameworks */,
+				683008082D7492E310343A4F17B70F4A /* CoreFoundation.framework in Frameworks */,
+				A96223994C89EC6323065BFC48365C96 /* CoreGraphics.framework in Frameworks */,
+				4CB9CAD90DDBF680F8FEE7D87F71336B /* CoreImage.framework in Frameworks */,
+				8A9003A00D0A377D2B15647FF6C3EA8C /* CoreText.framework in Frameworks */,
+				729C373DE1288D88A6B922FF08F0DC1B /* Foundation.framework in Frameworks */,
+				98920FD552E9719579C6679E88D80822 /* ImageIO.framework in Frameworks */,
+				3E01612FA66693D94F7DF793928EE254 /* QuartzCore.framework in Frameworks */,
+				3A7EACF39F695694DBCBB6C52A7EFDF4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,19 +315,6 @@
 			path = "DKKitDemo/Pods/Target Support Files/DKKit";
 			sourceTree = "<group>";
 		};
-		44BEFDBA418981A5D6497AAEB4E906B3 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				44133BAFDA0411AE9EEFA67E1CC15202 /* DKStringUtils.h */,
-				A72A912CE6B7C283F4773A50A94B54AA /* DKStringUtils.m */,
-				45D9AF89750ACD4A38168A0CBFF0196D /* DKTextSizeCalculate.h */,
-				A6CF61B5158D540BFF53C1C74BBCD97F /* DKTextSizeCalculate.m */,
-				8EF0789D1F4A361EC464BA2F469EEECE /* DKWeakProxy.h */,
-				22B1507BD809592D0043783BE251E82B /* DKWeakProxy.m */,
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
 		46A9B4BC236F47A7373CDAA8BE105D49 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -338,7 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				4C38A613EA47F8A02F84A879DB64C5AA /* DKKit.h */,
-				6C9CC949BC8897A8A1EE15EF324CE6B0 /* Classes */,
+				F9F6EB1E10F6BBD80AAEF71BB6D650EC /* Classes */,
 				AA23A5B8BA0A16C844F38AEFD9763439 /* Pod */,
 				DF66E7258367C5C61C9F191ABE41D9AE /* Special */,
 				3C1C09E493DA2C5E9515E17313EBFA67 /* Support Files */,
@@ -380,50 +371,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6C9CC949BC8897A8A1EE15EF324CE6B0 /* Classes */ = {
+		7B90461D6CF9494B515D19226701B3A0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BB5131F95520C625D222FE9F49E8EDF3 /* Base */,
-				AA3199021A880EC7511FCEBA74F8509B /* Model */,
-				44BEFDBA418981A5D6497AAEB4E906B3 /* Utility */,
+				4EADD14CDC42DC9F4B891E2E8F7446A4 /* NSArray+DKModel.h */,
+				B8BEADDFE9E654A81F171812569486DF /* NSArray+DKModel.m */,
+				82EFBA93CA0B595EF42A16980D6EBB19 /* NSDictionary+DKModel.h */,
+				F15764D7A7D6C70E49099DAA6F5BC8DE /* NSDictionary+DKModel.m */,
+				8224B9EBC2B4053D65B8959342B53541 /* NSObject+DKModel.h */,
+				8418A6B9F4D8D07EBB1D4080209BAE21 /* NSObject+DKModel.m */,
+				1AFE7EE617D9ADBA546BFA5672B8A121 /* NSString+DKModel.h */,
+				4C1F2A5884AB2C726BCC40CC314101ED /* NSString+DKModel.m */,
 			);
-			name = Classes;
-			path = DKKit/Classes;
-			sourceTree = "<group>";
-		};
-		8A5538FC03B457FF684E7DB65A309144 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				38D786F17B09A9E58BC3F03181E18675 /* NSArray+DKBlock.h */,
-				9097CEEE00F038A19430485B99580FC9 /* NSArray+DKBlock.m */,
-				C740BAB655BC12647A875FF034B29788 /* NSArray+DKSafeAccess.h */,
-				D13FE4FD0E8BB98FED77D3C0FC02FA7C /* NSArray+DKSafeAccess.m */,
-				C824EEBD6C971D4BFD368EF21DDD73A1 /* NSAttributedString+DKAttributed.h */,
-				A66C23A5566BFC55A12C2B43123C7583 /* NSAttributedString+DKAttributed.m */,
-				98D89D8AC021E8E0C713C175C57E7104 /* NSData+DKEncodeAndDecode.h */,
-				DA3BB54C6627A62D202BD0768392C965 /* NSData+DKEncodeAndDecode.m */,
-				A23AB4C008EE0A1EB4AD3F92A94544C8 /* NSDate+DKFormat.h */,
-				62FD068C41ED3FD969BC22D75E018457 /* NSDate+DKFormat.m */,
-				773789C6B022B904CA29297DECA7DBB9 /* NSDictionary+DKBlock.h */,
-				31CD4B862441894F53C77616EEAD0B58 /* NSDictionary+DKBlock.m */,
-				40ED4C447B6A9C4F17EA51619069AC9E /* NSDictionary+DKSafeAccess.h */,
-				E12D961A7F8E5C0885146A54AA58448F /* NSDictionary+DKSafeAccess.m */,
-				4361A25D65C8B161EBA745E2243FE6F3 /* NSObject+DKRuntime.h */,
-				8E91D82FDEF964C0C9FF4C29C2BDDF7A /* NSObject+DKRuntime.m */,
-				7171772B4767551F2A8B64955CA447DF /* NSObject+DKSelector.h */,
-				5FCD8807FB623FE258E15202BFD51C8B /* NSObject+DKSelector.m */,
-				496E8970C53DF935328674F6FBDBA69F /* NSObject+DKTopViewController.h */,
-				7AE08C5048A44422AE3C1DCFC30CB4DD /* NSObject+DKTopViewController.m */,
-				672645584A3617781B8A5CC5E47D1218 /* NSString+DKEncodeAndDecode.h */,
-				766388C4A783E97F8FE16084F1AA10B1 /* NSString+DKEncodeAndDecode.m */,
-				4C3349A96AB2372570160020008C271E /* NSString+DKMD5.h */,
-				A9B892344575A816EFC4CB12FC66A8B3 /* NSString+DKMD5.m */,
-				7C7C8DBF26D0D903D7BDE1070DA5A02F /* NSString+DKModel.h */,
-				4CF77E13702F5603D1EB883331C27809 /* NSString+DKModel.m */,
-				964BD86BC681BEBC02CBDBD1E496C069 /* NSString+DKSize.h */,
-				ADE4D59A6BFB0C8F94E8D07B8FEF9A1E /* NSString+DKSize.m */,
-			);
-			path = Foundation;
+			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		9E69FC5432C91FA6DD8D18ACC34D3852 /* Pods-DKKitDemo */ = {
@@ -453,46 +414,24 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		AA3199021A880EC7511FCEBA74F8509B /* Model */ = {
+		CABEC44697E778F6D6563FC7F8A6F86D /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				E0CB463DA9CCEF1173F3F168D859CAD2 /* NSArray+DKModel.h */,
-				69AE1D84A32D919ED24B27815390BE59 /* NSArray+DKModel.m */,
-				D8CDFEFAD23797B2FFD071E54DEE6A88 /* NSDictionary+DKModel.h */,
-				770117DF0DAF0ED3E44A00A91C33FDA0 /* NSDictionary+DKModel.m */,
-				FD0C6E631A175CDD9BC69B25704E1609 /* NSObject+DKModel.h */,
-				8AF792129158AA35DDC777CD7F69E137 /* NSObject+DKModel.m */,
+				BF32886B7BE1A9D84E4EDC3CB2F926C7 /* UIButton+DKExpandTouchArea.h */,
+				2726165198CAC6A6A573659FE83E0E3E /* UIButton+DKExpandTouchArea.m */,
+				353A3741B5DBA7D918BD6C3FB6FD3835 /* UIControl+DKBlock.h */,
+				33775703ECBF1AC5FD0124BFB3CA274F /* UIControl+DKBlock.m */,
+				E157877DF5A41037564FA77C14532823 /* UIControl+DKThrottle.h */,
+				045D85612D32226A5BE9F73C0E9274D4 /* UIControl+DKThrottle.m */,
+				E63C5DE754309FAD0701C83E479DF4F5 /* UITextField+DKPlaceholder.h */,
+				704EB37837996A50CBF45019997217EA /* UITextField+DKPlaceholder.m */,
+				E7380A53E215ABE6FB25EDC39CE59543 /* UIView+DKIBInspectable.h */,
+				E58B86BA7885BE2C58284D3A82CB63B8 /* UIView+DKIBInspectable.m */,
+				8B54B36540F565BEDDBD74B456B1B854 /* UIView+DKUtils.h */,
+				A532EA92F51E2A5D5F905290FF606963 /* UIView+DKUtils.m */,
 			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B7B99335548D8ADB673E5224980CAB7D /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				D4F7B3DE484730D8D7E66AAB4C2BA2EC /* UIButton+DKExpandTouchArea.h */,
-				33CDAFCA5580A06A429D260AC001DD14 /* UIButton+DKExpandTouchArea.m */,
-				B4684C92BEB3E0EEEA5948901A70AB95 /* UIControl+DKBlock.h */,
-				C0F9A7BE2CC41F63887147E048483485 /* UIControl+DKBlock.m */,
-				B65407A2721EC5BB5F76819EE42ACD99 /* UIControl+DKThrottle.h */,
-				66FB3146EBD4BC7B087016BFC1B72A59 /* UIControl+DKThrottle.m */,
-				9F03815E8DDC2BF751332FCC03D51988 /* UITextField+DKPlaceholder.h */,
-				E60C06CE053467F66997A297DD67FAD2 /* UITextField+DKPlaceholder.m */,
-				6059DB9ADFAC7581E7C097F06501D7C9 /* UIView+DKIBInspectable.h */,
-				CF3A65AE9CA171BCC2C695343D758D24 /* UIView+DKIBInspectable.m */,
-				9B532A15805FB8367ABD980C7D4C6C5D /* UIView+DKUtils.h */,
-				5624C68057BAE751C5F2DC347857B3BB /* UIView+DKUtils.m */,
-			);
+			name = UIKit;
 			path = UIKit;
-			sourceTree = "<group>";
-		};
-		BB5131F95520C625D222FE9F49E8EDF3 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				763407A94A47AE92AE83AC1492CB434D /* DKKitMacro.h */,
-				8A5538FC03B457FF684E7DB65A309144 /* Foundation */,
-				B7B99335548D8ADB673E5224980CAB7D /* UIKit */,
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -506,6 +445,22 @@
 			);
 			sourceTree = "<group>";
 		};
+		DF46571F29BF42AF1F2E5E175CF79F00 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E77C9530B6B8DF4EDAC6DD0C51896D2A /* DKMethodsHooking.h */,
+				CEDECA679C597750ADCE70DB7C53287E /* DKMethodsHooking.m */,
+				7549D423946A19B35D795B07AC07B092 /* DKStringUtils.h */,
+				C0DA245485132F87CB4BD0FBCC1CB57B /* DKStringUtils.m */,
+				D96C17AC92679845E0A8CE7E6526632F /* DKTextSizeCalculate.h */,
+				F23B964F69FF7273EF2DC901C5DF9FF9 /* DKTextSizeCalculate.m */,
+				AA12C3A12D42115BC4BFF4CDA6462A39 /* DKWeakProxy.h */,
+				D15257F3C2DF673FE81F882E06F6E002 /* DKWeakProxy.m */,
+			);
+			name = Utility;
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		DF66E7258367C5C61C9F191ABE41D9AE /* Special */ = {
 			isa = PBXGroup;
 			children = (
@@ -514,6 +469,17 @@
 			);
 			name = Special;
 			path = DKKit/Special;
+			sourceTree = "<group>";
+		};
+		E549D541B235C3645A51CE97B5BA0C9D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DC6D249E0740BAF4245CCB142E22121A /* DKKitMacro.h */,
+				EE6837F10EEF8AD08623EAFDB8A953FB /* Foundation */,
+				CABEC44697E778F6D6563FC7F8A6F86D /* UIKit */,
+			);
+			name = Base;
+			path = Base;
 			sourceTree = "<group>";
 		};
 		E98C621B4C961EC6B88CCB123463A0AF /* Pods-DKKitDemoTests */ = {
@@ -530,6 +496,51 @@
 			);
 			name = "Pods-DKKitDemoTests";
 			path = "Target Support Files/Pods-DKKitDemoTests";
+			sourceTree = "<group>";
+		};
+		EE6837F10EEF8AD08623EAFDB8A953FB /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				DAAC7156889BE0E4F49D51C6A7D72368 /* NSArray+DKBlock.h */,
+				8E24372AC70D6EBAA3D12EB665D5F95D /* NSArray+DKBlock.m */,
+				FDF9BE2530957A71A8578CBCB8825359 /* NSArray+DKSafeAccess.h */,
+				96F4AAC95B7563D1A3D9FEAE4A6E2868 /* NSArray+DKSafeAccess.m */,
+				DACFE1E78336F3F2405284BA0B68CF68 /* NSAttributedString+DKAttributed.h */,
+				0FED9EFBD33DB743CC5804B1D2A217E0 /* NSAttributedString+DKAttributed.m */,
+				6A07C34E7EDFF982BBB41A5D853B9235 /* NSData+DKEncodeAndDecode.h */,
+				0617E87C29571E970BDCA19AB3C76219 /* NSData+DKEncodeAndDecode.m */,
+				AB80CCA3D54A8470F165C994CDCBB018 /* NSDate+DKFormat.h */,
+				C242F5D1EC1C938443E801513E2962EC /* NSDate+DKFormat.m */,
+				77DE4C3BAA3BCA950F192DDBB521CCC1 /* NSDictionary+DKBlock.h */,
+				BF12BDA84AECEBEDF712755A2294E80E /* NSDictionary+DKBlock.m */,
+				ED8D15F94706C637EDFDB1B4067B5A28 /* NSDictionary+DKSafeAccess.h */,
+				7AD307B97A6133A8609A9273EBB1686C /* NSDictionary+DKSafeAccess.m */,
+				5DB7CB07FA70031CA89589972A4D202D /* NSObject+DKRuntime.h */,
+				C0CAD63B88129BE7EB5C9581748111D5 /* NSObject+DKRuntime.m */,
+				D77AB92B16754FEA41B7FE789F5D3122 /* NSObject+DKSelector.h */,
+				23B4FEE8B90AC9EE8711FCEBCFF7AD6B /* NSObject+DKSelector.m */,
+				AD769F25DC191BD6FF5D9907875C04E8 /* NSObject+DKTopViewController.h */,
+				1418C6CAC41A2335D073CF2F19C6ADE6 /* NSObject+DKTopViewController.m */,
+				6ED84F3CC17EE5E3AF9EB8DA3CFAB353 /* NSString+DKEncodeAndDecode.h */,
+				73AB9F5D3F31E331407A1F834C11BAFD /* NSString+DKEncodeAndDecode.m */,
+				46E6B3282F141FC82C7E96A20DECEE26 /* NSString+DKMD5.h */,
+				334A7DD7AC95AC70505144FAD30855C3 /* NSString+DKMD5.m */,
+				BD8AA91353A46478238886C5B6230D90 /* NSString+DKSize.h */,
+				AC796214D646A2C447EB6E2BEFF8FC44 /* NSString+DKSize.m */,
+			);
+			name = Foundation;
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		F9F6EB1E10F6BBD80AAEF71BB6D650EC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E549D541B235C3645A51CE97B5BA0C9D /* Base */,
+				7B90461D6CF9494B515D19226701B3A0 /* Model */,
+				DF46571F29BF42AF1F2E5E175CF79F00 /* Utility */,
+			);
+			name = Classes;
+			path = DKKit/Classes;
 			sourceTree = "<group>";
 		};
 		FD29D7719FE5AFACDD96CE330AE1C62B /* Products */ = {
@@ -563,48 +574,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		594615116F143B58E5B68F2F119D1ABC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25BE0D1CF6CB04BFC15E50F08C0ACB84 /* DKDebug.h in Headers */,
-				BD9A69DDF0772C49546506730C694527 /* DKKit.h in Headers */,
-				72B34BB307A3A5AA5F218A38D3ECAE1B /* DKKit-umbrella.h in Headers */,
-				11B20CCB8EA5BF4CE168FD6840641750 /* DKKitMacro.h in Headers */,
-				40FC5D668EFC2B2980B3537B1DCE4509 /* DKStringUtils.h in Headers */,
-				615F7F59D4F10996C3A42A9C5F9A9415 /* DKTextSizeCalculate.h in Headers */,
-				9C4C0D24A3A6B340FB0FA4CEAC12C392 /* DKWeakProxy.h in Headers */,
-				A490B7D49668539B8E93D756E64E9280 /* NSArray+DKBlock.h in Headers */,
-				3E36A7F21813EFA69F54CC6C0E6398E6 /* NSArray+DKModel.h in Headers */,
-				E43FBE253B6683C25FD562E71E55C7FD /* NSArray+DKSafeAccess.h in Headers */,
-				2ADD1151BA049A67CA9DACEBCBE51280 /* NSAttributedString+DKAttributed.h in Headers */,
-				2013AD157E689CEDAFC6599AE0EB355B /* NSData+DKEncodeAndDecode.h in Headers */,
-				6139CF51FA88FBB42EA129208F7E64D6 /* NSDate+DKFormat.h in Headers */,
-				7DD29598D48CB5E6E0E01DFD9B6D1793 /* NSDictionary+DKBlock.h in Headers */,
-				EE012D1920878428C61F28071828AF10 /* NSDictionary+DKModel.h in Headers */,
-				24903986CFA9FA5E3E9687A2B42B6DE0 /* NSDictionary+DKSafeAccess.h in Headers */,
-				FB2178F1E1B4029A2C0BC40B6B15F64B /* NSObject+DKModel.h in Headers */,
-				204DE5AE73DFE8BB8D9228F65B7E61CD /* NSObject+DKRuntime.h in Headers */,
-				837A1BDF269844455F275F66946ACCF2 /* NSObject+DKSelector.h in Headers */,
-				EC1B2EF59810A168CED20D69A5337606 /* NSObject+DKTopViewController.h in Headers */,
-				F46345AB6437C697B354E5141AC251BB /* NSString+DKEncodeAndDecode.h in Headers */,
-				00209B935AD4D9F00A3ACACB018F944A /* NSString+DKMD5.h in Headers */,
-				E28FA16ED49EC4E9F05A47EB5009FAE9 /* NSString+DKModel.h in Headers */,
-				26C63AEC54458C869741A3D88090CD1D /* NSString+DKSize.h in Headers */,
-				D4C23227BD87EC5A7A73F1D5AC43A5F0 /* UIButton+DKExpandTouchArea.h in Headers */,
-				70BF7933673475528BF0B8B79DDF51AF /* UIControl+DKBlock.h in Headers */,
-				AC1ABF5293B00E38D3ABD1D136A034C4 /* UIControl+DKThrottle.h in Headers */,
-				46AC9F3E334F1B7E1C01204A75EF561F /* UITextField+DKPlaceholder.h in Headers */,
-				788D5CCCEC173E26EB026964E3E7A5C9 /* UIView+DKIBInspectable.h in Headers */,
-				861B6EA7E13A50DD8844616089270607 /* UIView+DKUtils.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E57BC9FBDD19F952F0F30DAED1CFC2AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3055AFD44ED1A49343135C62D3FC1E9A /* Pods-DKKitDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1C4A3FC44257E25977E1FAF2D1BBA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5A03D993125AB03BA0A3E94E45CDDD /* DKDebug.h in Headers */,
+				21729DD535C0349B45B6BE526BE69344 /* DKKit.h in Headers */,
+				59F2AEBA013C2C190102861A98F25307 /* DKKit-umbrella.h in Headers */,
+				9338E772AFA0EF71C887EFA49124231B /* DKKitMacro.h in Headers */,
+				E9658EA50C92888A705CDFAE6217ECE1 /* DKMethodsHooking.h in Headers */,
+				661676EBDD873D922C5C517E125F9C84 /* DKStringUtils.h in Headers */,
+				724E12FC2B8009DE6A0DD86BC95074C9 /* DKTextSizeCalculate.h in Headers */,
+				B988EDC9C38FEB524D4F7359AC9360A0 /* DKWeakProxy.h in Headers */,
+				A62A23A8DB5F9B9E06D6BDB268F817F3 /* NSArray+DKBlock.h in Headers */,
+				05B67036C5E4FA8EB95D15A5C33ACE0B /* NSArray+DKModel.h in Headers */,
+				D55E5BE9B3DD773E0F74592F9B81C42B /* NSArray+DKSafeAccess.h in Headers */,
+				6D63D6117238A13EA62EA1DA5AF9C398 /* NSAttributedString+DKAttributed.h in Headers */,
+				AB47BEBDC0446BF997CDA240F63C4304 /* NSData+DKEncodeAndDecode.h in Headers */,
+				8A56357D1CC49EAD5B6A67DE05250D14 /* NSDate+DKFormat.h in Headers */,
+				8EDB45D433AB5E701C9E37D841DD5DCE /* NSDictionary+DKBlock.h in Headers */,
+				E295A8A6518BD623C5F5734F539B984F /* NSDictionary+DKModel.h in Headers */,
+				5E0C6F65BA23BFFB15DB9ED624042065 /* NSDictionary+DKSafeAccess.h in Headers */,
+				EAF7AAA3B47DE72CBE1F719017511DAF /* NSObject+DKModel.h in Headers */,
+				6F087DF2B7B9E9F12E1E6D700A507C58 /* NSObject+DKRuntime.h in Headers */,
+				761F938D7C93512A3A94C80D86B37642 /* NSObject+DKSelector.h in Headers */,
+				5252CD5717FFD80CF2511A9AF19C3163 /* NSObject+DKTopViewController.h in Headers */,
+				9CB49C7F98F083DA2CE25F243FE22632 /* NSString+DKEncodeAndDecode.h in Headers */,
+				62F6B39269865863F37D07FC87825343 /* NSString+DKMD5.h in Headers */,
+				C45E6FE295731B26897EC303FA655461 /* NSString+DKModel.h in Headers */,
+				957CCD953BC8D55C71440D02FA4B5DB4 /* NSString+DKSize.h in Headers */,
+				E11348CCBB3BAAC1D63B3C9AE82D35F3 /* UIButton+DKExpandTouchArea.h in Headers */,
+				D9693B64EFC44B9DFCF17F80A8E65C49 /* UIControl+DKBlock.h in Headers */,
+				3DEE01BA02D58A278D88B553F83F46C8 /* UIControl+DKThrottle.h in Headers */,
+				E8A119386146873E052EA1994928AD83 /* UITextField+DKPlaceholder.h in Headers */,
+				A336FD8ACF24F458F893116CA59D5B17 /* UIView+DKIBInspectable.h in Headers */,
+				D852A7490D3084ABAE1EC100D0DB646B /* UIView+DKUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,7 +635,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				82F3F6DE322C231B9D6B3ADEC8FF734E /* PBXTargetDependency */,
+				BF75420B371CC83C949495766D5D7E7B /* PBXTargetDependency */,
 			);
 			name = "Pods-DKKitDemoTests";
 			productName = Pods_DKKitDemoTests;
@@ -632,17 +644,17 @@
 		};
 		9695E926559C525C1C8DDC811FC99928 /* DKKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0174E873B150D116E99BD11316524188 /* Build configuration list for PBXNativeTarget "DKKit" */;
+			buildConfigurationList = 3EDA268B5B56E0A24B8F67B0A9DA0E7B /* Build configuration list for PBXNativeTarget "DKKit" */;
 			buildPhases = (
-				594615116F143B58E5B68F2F119D1ABC /* Headers */,
-				B768F4574FD0B773001678D55CE032E7 /* Sources */,
-				73607EDCDF01B68F4D4773935662F969 /* Frameworks */,
-				B5AAE29B99A5CB73835E3D8B5CD54B01 /* Resources */,
+				EE1C4A3FC44257E25977E1FAF2D1BBA5 /* Headers */,
+				1F62F20FDD39619696B9EAC1794FF7AB /* Sources */,
+				F5C5C28E7E9E8DFF29B92EC25EDF608A /* Frameworks */,
+				4FB2EA0E0CFD0062FF7963905B7340C3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4874407994604C0194AFDCA0947A8848 /* PBXTargetDependency */,
+				D7BC0FF789548E1CDCA611149B78FD04 /* PBXTargetDependency */,
 			);
 			name = DKKit;
 			productName = DKKit;
@@ -661,7 +673,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9DA70834AD4E9337CA193FE4B03DEC4C /* PBXTargetDependency */,
+				F423E11CCD1526D55415669B48021DAD /* PBXTargetDependency */,
 			);
 			name = "Pods-DKKitDemo-DKKitDemoUITests";
 			productName = Pods_DKKitDemo_DKKitDemoUITests;
@@ -670,11 +682,11 @@
 		};
 		C5971E41C1212D219575944EB9E06BEB /* DKKit-DKKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FFAC69F8F8BB950648B014017AFEDC9 /* Build configuration list for PBXNativeTarget "DKKit-DKKit" */;
+			buildConfigurationList = A258A834B6280DDD902DA4416E2D1C02 /* Build configuration list for PBXNativeTarget "DKKit-DKKit" */;
 			buildPhases = (
-				BC938F1E332085BB575042C59E6DA96C /* Sources */,
-				E46A858C364D4C4EF76FF5C0AC455DCC /* Frameworks */,
-				DD35AEF9E6D41ABED1220906F08C5431 /* Resources */,
+				A7ABF6557628B6556CBA619ED7345FD5 /* Sources */,
+				4907790F748FDB00A3B448F8326C7C36 /* Frameworks */,
+				305C2C0254598C41F04D0A1BB93C1BAD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -697,7 +709,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				93B0B902D000DA6C5086630B81E8D50A /* PBXTargetDependency */,
+				082D40DC1549E4869C37B9B2CA670183 /* PBXTargetDependency */,
 			);
 			name = "Pods-DKKitDemo";
 			productName = Pods_DKKitDemo;
@@ -736,6 +748,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		305C2C0254598C41F04D0A1BB93C1BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB2EA0E0CFD0062FF7963905B7340C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06894B47DB30E887E750EF15DBD91953 /* DKKit-DKKit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA4C86D9254D770099035862294433BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -750,22 +777,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5AAE29B99A5CB73835E3D8B5CD54B01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE5629968D819E24C182AA599BBF0982 /* DKKit-DKKit in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B9F0B7F8352BC172384072B729C1A1BB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD35AEF9E6D41ABED1220906F08C5431 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -775,6 +787,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F62F20FDD39619696B9EAC1794FF7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2887CD3C9A33F8CB7A67DAD6E2D185A5 /* DKDebug.m in Sources */,
+				C6DA99AD4D4659F99E291FFC601DAA54 /* DKKit-dummy.m in Sources */,
+				694DEE3829A273D233ACC3E48F31E19B /* DKMethodsHooking.m in Sources */,
+				1D8EC9A6AE98FE1B2A92F1206B4D56B6 /* DKStringUtils.m in Sources */,
+				D7F7931852F89189A79ABFF6F9455916 /* DKTextSizeCalculate.m in Sources */,
+				0D6E9A7C275D915952CDCB6D3AB7D944 /* DKWeakProxy.m in Sources */,
+				A78D0DD93D2157D26999ADFE2235597F /* NSArray+DKBlock.m in Sources */,
+				ABC4AE3B77BACDA3155C8F47543FB2E3 /* NSArray+DKModel.m in Sources */,
+				C9F5DF457E2FD76893CBC5BCE175F189 /* NSArray+DKSafeAccess.m in Sources */,
+				671490C614772A382C4943E32ABDD783 /* NSAttributedString+DKAttributed.m in Sources */,
+				63726BA036B4D75055AE92748D78144E /* NSData+DKEncodeAndDecode.m in Sources */,
+				376C7CBCE5471A673E46F360D66CFFB5 /* NSDate+DKFormat.m in Sources */,
+				BCD7EBF8BF5AE36E5434B586E39FA1DA /* NSDictionary+DKBlock.m in Sources */,
+				6B305687B5FFE86B4D8D4428A43C817E /* NSDictionary+DKModel.m in Sources */,
+				AF04E1E1776CA6AAD47202F9F07EB162 /* NSDictionary+DKSafeAccess.m in Sources */,
+				C87AE2BD745F5EFFB5D2562DEA141A47 /* NSObject+DKModel.m in Sources */,
+				14F3C220D141DA1CC29C54D98DCC6B1D /* NSObject+DKRuntime.m in Sources */,
+				3D389E0527C435B4B7C53A06C3544D9B /* NSObject+DKSelector.m in Sources */,
+				D5A5E51F00FA759732719F64F292B096 /* NSObject+DKTopViewController.m in Sources */,
+				B823BAB8D08443BDDD1FEAED823E578A /* NSString+DKEncodeAndDecode.m in Sources */,
+				15A9BBE573A58AF9DF34AA7B2C059291 /* NSString+DKMD5.m in Sources */,
+				CE39EA5D1B5F1ECA2BD8633CFB4A2DEE /* NSString+DKModel.m in Sources */,
+				94029AD2E416341C577577A5D5B4377D /* NSString+DKSize.m in Sources */,
+				9B4EC596A8189DB13D9D451555B938D1 /* UIButton+DKExpandTouchArea.m in Sources */,
+				0CDF438651FAF14BF15EE4A51F92DC39 /* UIControl+DKBlock.m in Sources */,
+				9CC41E5ED2201F200A3F908885FDC960 /* UIControl+DKThrottle.m in Sources */,
+				CF55E281EF129077F01A956E6E800907 /* UITextField+DKPlaceholder.m in Sources */,
+				5E1C6FF4FD2B802178C736CC98CD2F0B /* UIView+DKIBInspectable.m in Sources */,
+				76F59AB6C31CA543958D749694545E30 /* UIView+DKUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A99AC57431A69CFDC1847B4BF65C9DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -791,42 +839,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B768F4574FD0B773001678D55CE032E7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1AC69900C3E41C727E801CA0436E30EE /* DKDebug.m in Sources */,
-				6734B5D4B4407CDC22B1FF0DE654F95D /* DKKit-dummy.m in Sources */,
-				D8EF34781F912258BE5340680FF7BC9F /* DKStringUtils.m in Sources */,
-				482D14876BE4593D31A44E90D57CB5DA /* DKTextSizeCalculate.m in Sources */,
-				C65DB223B1F430F581BBBC7575AE94A9 /* DKWeakProxy.m in Sources */,
-				3B2D226162D69D8D3D16604B29B26C8B /* NSArray+DKBlock.m in Sources */,
-				E6944C0DB01A8252F65891A0D56A1348 /* NSArray+DKModel.m in Sources */,
-				A0BA491B4C7A5E976F0FA7DC6A126CE9 /* NSArray+DKSafeAccess.m in Sources */,
-				82EF23281ACCA3FB2295FE0A6D78C610 /* NSAttributedString+DKAttributed.m in Sources */,
-				FFF2C66927D22DAE74E170314C71C209 /* NSData+DKEncodeAndDecode.m in Sources */,
-				5E3B6495B1AEB9E1E8B8B73E603B45CE /* NSDate+DKFormat.m in Sources */,
-				DABC50EB5D8248B25D811237F5F5FEFB /* NSDictionary+DKBlock.m in Sources */,
-				4B5E6E1FEC91A0E9F6C0F1BB6B0496D5 /* NSDictionary+DKModel.m in Sources */,
-				3CED6F4C18C35365333126EFD04BE4E4 /* NSDictionary+DKSafeAccess.m in Sources */,
-				B8E038AF425FA5F3A3D2EEA963F905ED /* NSObject+DKModel.m in Sources */,
-				A803ECF17412A2A5648ECC7880F82424 /* NSObject+DKRuntime.m in Sources */,
-				58408B838ACC165B8ED2B35E6263F7BA /* NSObject+DKSelector.m in Sources */,
-				5FA51025CC00C4DD70FC10FEE5C4A7F7 /* NSObject+DKTopViewController.m in Sources */,
-				DA937FE1D634AB78AFFFE4904C76BE88 /* NSString+DKEncodeAndDecode.m in Sources */,
-				70586C1F731A1C3137CEE087FA6BFBE6 /* NSString+DKMD5.m in Sources */,
-				6BA831D1EE79AB043BEA02F0DA4B2B5C /* NSString+DKModel.m in Sources */,
-				B3638B8E6FA6AF9A75267382D045A888 /* NSString+DKSize.m in Sources */,
-				239B8D884C99DF810B4E70CCC5D80CBB /* UIButton+DKExpandTouchArea.m in Sources */,
-				AFDE89C694273200AE529E95C3129C13 /* UIControl+DKBlock.m in Sources */,
-				659FBCAB5C438AFD13CE60095ACD50A3 /* UIControl+DKThrottle.m in Sources */,
-				71A2E7F95E33C78FC9091A5A75A8ECC4 /* UITextField+DKPlaceholder.m in Sources */,
-				CD887A2520296C61E0A2051426047D35 /* UIView+DKIBInspectable.m in Sources */,
-				737B9F020F30876E68A74480B2A86D9E /* UIView+DKUtils.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC938F1E332085BB575042C59E6DA96C /* Sources */ = {
+		A7ABF6557628B6556CBA619ED7345FD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -844,29 +857,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4874407994604C0194AFDCA0947A8848 /* PBXTargetDependency */ = {
+		082D40DC1549E4869C37B9B2CA670183 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "DKKit-DKKit";
-			target = C5971E41C1212D219575944EB9E06BEB /* DKKit-DKKit */;
-			targetProxy = A47D7D1110E2A94A682AEC9F6C27A449 /* PBXContainerItemProxy */;
+			name = DKKit;
+			target = 9695E926559C525C1C8DDC811FC99928 /* DKKit */;
+			targetProxy = DE60CD37D083520C831141AB243E653A /* PBXContainerItemProxy */;
 		};
-		82F3F6DE322C231B9D6B3ADEC8FF734E /* PBXTargetDependency */ = {
+		BF75420B371CC83C949495766D5D7E7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DKKitDemo";
 			target = E8E298ADC67342C1A73AD845B98935EE /* Pods-DKKitDemo */;
-			targetProxy = 9C35628F82C1E83DDAA6C621F6E726E8 /* PBXContainerItemProxy */;
+			targetProxy = FDFD83EC410FF5A5FD8ED2E38F42C144 /* PBXContainerItemProxy */;
 		};
-		93B0B902D000DA6C5086630B81E8D50A /* PBXTargetDependency */ = {
+		D7BC0FF789548E1CDCA611149B78FD04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DKKit-DKKit";
+			target = C5971E41C1212D219575944EB9E06BEB /* DKKit-DKKit */;
+			targetProxy = 30366E4936C0BC92080F081ECFE98A1D /* PBXContainerItemProxy */;
+		};
+		F423E11CCD1526D55415669B48021DAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DKKit;
 			target = 9695E926559C525C1C8DDC811FC99928 /* DKKit */;
-			targetProxy = 93AC6EF58B4D4661FE786F562548DF85 /* PBXContainerItemProxy */;
-		};
-		9DA70834AD4E9337CA193FE4B03DEC4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DKKit;
-			target = 9695E926559C525C1C8DDC811FC99928 /* DKKit */;
-			targetProxy = 0BF4D662F4F388ACB5474E92480A731A /* PBXContainerItemProxy */;
+			targetProxy = 81D82B2BECF28CBE60EC4F459F5A1F24 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -983,9 +996,9 @@
 			};
 			name = Debug;
 		};
-		3D7B3F43F120F50CA9F1EE86B7F564F6 /* Debug */ = {
+		4465C49B445A8DB712266324F35EFF5D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D37A3F43157BF48D455AA9CCC7CFD50 /* DKKit.debug.xcconfig */;
+			baseConfigurationReference = F30428AC9193244260A801731EB8E8ED /* DKKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1011,10 +1024,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		47610619DE0994D6E7D34EE035A22AA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1052,22 +1066,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		4D3CA6FE13F8D23F4B701AA7CFD07863 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F30428AC9193244260A801731EB8E8ED /* DKKit.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DKKit";
-				IBSC_MODULE = DKKit;
-				INFOPLIST_FILE = "Target Support Files/DKKit/ResourceBundle-DKKit-DKKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = DKKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		64B878741566377D2384C8393D213B6D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1107,6 +1105,22 @@
 			};
 			name = Release;
 		};
+		70E24982E472486164CBDFA8DCE754CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D37A3F43157BF48D455AA9CCC7CFD50 /* DKKit.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DKKit";
+				IBSC_MODULE = DKKit;
+				INFOPLIST_FILE = "Target Support Files/DKKit/ResourceBundle-DKKit-DKKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = DKKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		7383EA8E2CFB98DA083AC49D77A6A326 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87D4011BEF4FECAA68DDE8911695980B /* Pods-DKKitDemo.release.xcconfig */;
@@ -1145,9 +1159,9 @@
 			};
 			name = Release;
 		};
-		85451A49249DBEDE20BC5CBB3FD4AFB0 /* Debug */ = {
+		7688371812194527027BE79856EB78E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D37A3F43157BF48D455AA9CCC7CFD50 /* DKKit.debug.xcconfig */;
+			baseConfigurationReference = F30428AC9193244260A801731EB8E8ED /* DKKit.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DKKit";
 				IBSC_MODULE = DKKit;
@@ -1158,40 +1172,6 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		8614B75F56569842F0F4F5D5BE704A5A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F30428AC9193244260A801731EB8E8ED /* DKKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DKKit/DKKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DKKit/DKKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DKKit/DKKit.modulemap";
-				PRODUCT_MODULE_NAME = DKKit;
-				PRODUCT_NAME = DKKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1323,23 +1303,47 @@
 			};
 			name = Release;
 		};
+		A282D168E384A42B969CC7C089D1B357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D37A3F43157BF48D455AA9CCC7CFD50 /* DKKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DKKit/DKKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKKit/DKKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DKKit/DKKit.modulemap";
+				PRODUCT_MODULE_NAME = DKKit;
+				PRODUCT_NAME = DKKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0174E873B150D116E99BD11316524188 /* Build configuration list for PBXNativeTarget "DKKit" */ = {
+		3EDA268B5B56E0A24B8F67B0A9DA0E7B /* Build configuration list for PBXNativeTarget "DKKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D7B3F43F120F50CA9F1EE86B7F564F6 /* Debug */,
-				8614B75F56569842F0F4F5D5BE704A5A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0FFAC69F8F8BB950648B014017AFEDC9 /* Build configuration list for PBXNativeTarget "DKKit-DKKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				85451A49249DBEDE20BC5CBB3FD4AFB0 /* Debug */,
-				4D3CA6FE13F8D23F4B701AA7CFD07863 /* Release */,
+				A282D168E384A42B969CC7C089D1B357 /* Debug */,
+				4465C49B445A8DB712266324F35EFF5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1376,6 +1380,15 @@
 			buildConfigurations = (
 				1789FD46805690A9A91E81A04284D63E /* Debug */,
 				64B878741566377D2384C8393D213B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A258A834B6280DDD902DA4416E2D1C02 /* Build configuration list for PBXNativeTarget "DKKit-DKKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E24982E472486164CBDFA8DCE754CF /* Debug */,
+				7688371812194527027BE79856EB78E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

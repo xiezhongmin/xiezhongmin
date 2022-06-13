@@ -32,6 +32,7 @@
 #import "UIControl+DKBlock.h"
 #import "UIButton+DKExpandTouchArea.h"
 #import "DKWeakProxy.h"
+#import "DKMethodsHooking.h"
 
 #endif /* DKKit_h */
 

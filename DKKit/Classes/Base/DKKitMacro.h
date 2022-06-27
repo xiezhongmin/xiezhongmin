@@ -24,21 +24,49 @@
 #endif
 
 #ifdef DEBUG
-#define DKLog(frmt, ...)            do{ if(DK_NSLOG_LEVEL >= 0) NSLog((@"" frmt), ##__VA_ARGS__); } while(0)
-#define DKLogError(frmt, ...)       do{ if(DK_NSLOG_LEVEL >= 1) NSLog((@"[Error] " frmt), ##__VA_ARGS__); } while(0)
-#define DKLogWarn(frmt, ...)        do{ if(DK_NSLOG_LEVEL >= 2) NSLog((@"[Warn] " frmt), ##__VA_ARGS__); } while(0)
-#define DKLogInfo(frmt, ...)        do{ if(DK_NSLOG_LEVEL >= 3) NSLog((@"[Info] " frmt), ##__VA_ARGS__); } while(0)
-#define DKLogDebug(frmt, ...)       do{ if(DK_NSLOG_LEVEL >= 4) NSLog((@"[Debug] " frmt), ##__VA_ARGS__); } while(0)
-#define DKLogVerbose(frmt, ...)     do{ if(DK_NSLOG_LEVEL >= 5) NSLog((@"[Verbose] " frmt), ##__VA_ARGS__); } while(0)
-#define DKLogFileLine(frmt, ...)    do{ if(DK_NSLOG_LEVEL >= 6) NSLog((@"<file:%@, line:%d> " frmt), [[NSString stringWithFormat:@"%s", __FILE__] lastPathComponent], __LINE__, ##__VA_ARGS__); } while(0)
+#ifndef DKLog
+    #define DKLog(frmt, ...)            do{ if(DK_NSLOG_LEVEL >= 0) NSLog((@"" frmt), ##__VA_ARGS__); } while(0)
+#endif
+#ifndef DKLogDebug
+    #define DKLogDebug(frmt, ...)       do{ if(DK_NSLOG_LEVEL >= 4) NSLog((@"[Debug] " frmt), ##__VA_ARGS__); } while(0)
+#endif
+#ifndef DKLogInfo
+    #define DKLogInfo(frmt, ...)        do{ if(DK_NSLOG_LEVEL >= 3) NSLog((@"[Info] " frmt), ##__VA_ARGS__); } while(0)
+#endif
+#ifndef DKLogError
+    #define DKLogError(frmt, ...)       do{ if(DK_NSLOG_LEVEL >= 1) NSLog((@"[Error] " frmt), ##__VA_ARGS__); } while(0)
+#endif
+#ifndef DKLogWarn
+    #define DKLogWarn(frmt, ...)        do{ if(DK_NSLOG_LEVEL >= 2) NSLog((@"[Warn] " frmt), ##__VA_ARGS__); } while(0)
+#endif
+#ifndef DKLogVerbose
+    #define DKLogVerbose(frmt, ...)     do{ if(DK_NSLOG_LEVEL >= 5) NSLog((@"[Verbose] " frmt), ##__VA_ARGS__); } while(0)
+#endif
+#ifndef DKLogFileLine
+    #define DKLogFileLine(frmt, ...)    do{ if(DK_NSLOG_LEVEL >= 6) NSLog((@"<file:%@, line:%d> " frmt), [[NSString stringWithFormat:@"%s", __FILE__] lastPathComponent], __LINE__, ##__VA_ARGS__); } while(0)
+#endif
 #else
-#define DKLog(frmt, ...)
-#define DKLogDebug(frmt, ...)
-#define DKLogInfo(frmt, ...)
-#define DKLogWarn(frmt, ...)
-#define DKLogError(frmt, ...)
-#define DKLogVerbose(frmt, ...)
-#define DKLogFileLine(frmt, ...)
+#ifndef DKLog
+    #define DKLog(frmt, ...)
+#endif
+#ifndef DKLogDebug
+    #define DKLogDebug(frmt, ...)
+#endif
+#ifndef DKLogInfo
+    #define DKLogInfo(frmt, ...)
+#endif
+#ifndef DKLogError
+    #define DKLogError(frmt, ...)
+#endif
+#ifndef DKLogWarn
+    #define DKLogWarn(frmt, ...)
+#endif
+#ifndef DKLogVerbose
+    #define DKLogVerbose(frmt, ...)
+#endif
+#ifndef DKLogFileLine
+    #define DKLogFileLine(frmt, ...)
+#endif
 #endif
 
 

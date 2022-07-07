@@ -45,6 +45,8 @@
 		761F938D7C93512A3A94C80D86B37642 /* NSObject+DKSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = D77AB92B16754FEA41B7FE789F5D3122 /* NSObject+DKSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76F59AB6C31CA543958D749694545E30 /* UIView+DKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A532EA92F51E2A5D5F905290FF606963 /* UIView+DKUtils.m */; };
 		7CDA29F5B786B0FFF54505EFE7EFCE7C /* Pods-DKKitDemo-DKKitDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA6B5C53D6D41DDF385D4E61CC84C /* Pods-DKKitDemo-DKKitDemoUITests-dummy.m */; };
+		845670D02873EF360038AFDB /* NSObject+DKRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 845670CE2873EF360038AFDB /* NSObject+DKRouter.h */; };
+		845670D12873EF360038AFDB /* NSObject+DKRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 845670CF2873EF360038AFDB /* NSObject+DKRouter.m */; };
 		870DF099459E685B61E37B0B75DA03A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CF5426D4E8CAEE4B58B02F4ECD1844 /* Foundation.framework */; };
 		8A56357D1CC49EAD5B6A67DE05250D14 /* NSDate+DKFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = AB80CCA3D54A8470F165C994CDCBB018 /* NSDate+DKFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A9003A00D0A377D2B15647FF6C3EA8C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF8E401F4E19A5FB11BF2D87887BBB0 /* CoreText.framework */; };
@@ -148,7 +150,7 @@
 		4C38A613EA47F8A02F84A879DB64C5AA /* DKKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DKKit.h; path = DKKit/DKKit.h; sourceTree = "<group>"; };
 		4EADD14CDC42DC9F4B891E2E8F7446A4 /* NSArray+DKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+DKModel.h"; sourceTree = "<group>"; };
 		505FAB38A509B639593784DDFB9E2AC2 /* DKKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKKit-dummy.m"; sourceTree = "<group>"; };
-		52A4625CCC97C5BA737AF3A741C8C068 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		52A4625CCC97C5BA737AF3A741C8C068 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5885D9F69E9938FC8044271C7FDF3A49 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		5DB7CB07FA70031CA89589972A4D202D /* NSObject+DKRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+DKRuntime.h"; sourceTree = "<group>"; };
 		5F082159A3513E5960B947241762AD01 /* Pods-DKKitDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKKitDemoTests-dummy.m"; sourceTree = "<group>"; };
@@ -170,7 +172,9 @@
 		82EFBA93CA0B595EF42A16980D6EBB19 /* NSDictionary+DKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DKModel.h"; sourceTree = "<group>"; };
 		836AA5CDAE68AE647304726430CC2F90 /* DKKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKKit-prefix.pch"; sourceTree = "<group>"; };
 		8418A6B9F4D8D07EBB1D4080209BAE21 /* NSObject+DKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DKModel.m"; sourceTree = "<group>"; };
-		8557C05184390ED908B0A8843AA18F43 /* DKKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DKKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		845670CE2873EF360038AFDB /* NSObject+DKRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+DKRouter.h"; sourceTree = "<group>"; };
+		845670CF2873EF360038AFDB /* NSObject+DKRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DKRouter.m"; sourceTree = "<group>"; };
+		8557C05184390ED908B0A8843AA18F43 /* DKKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DKKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		86161880A86388B02DBA4723E96CC31A /* DKDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKDebug.h; sourceTree = "<group>"; };
 		87D4011BEF4FECAA68DDE8911695980B /* Pods-DKKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8B54B36540F565BEDDBD74B456B1B854 /* UIView+DKUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+DKUtils.h"; sourceTree = "<group>"; };
@@ -180,7 +184,7 @@
 		8F67FCE3A303395E1D628976FEA736BB /* Pods-DKKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		96F4AAC95B7563D1A3D9FEAE4A6E2868 /* NSArray+DKSafeAccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DKSafeAccess.m"; sourceTree = "<group>"; };
 		9C69A716A904C29CC53A588D03A45A2D /* Pods-DKKitDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKKitDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E800D423F108C5AA8800ED83D29E9EE /* DKDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DKDebug.m; sourceTree = "<group>"; };
 		A532EA92F51E2A5D5F905290FF606963 /* UIView+DKUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+DKUtils.m"; sourceTree = "<group>"; };
 		AA12C3A12D42115BC4BFF4CDA6462A39 /* DKWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKWeakProxy.h; sourceTree = "<group>"; };
@@ -188,7 +192,7 @@
 		AC796214D646A2C447EB6E2BEFF8FC44 /* NSString+DKSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DKSize.m"; sourceTree = "<group>"; };
 		AD769F25DC191BD6FF5D9907875C04E8 /* NSObject+DKTopViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+DKTopViewController.h"; sourceTree = "<group>"; };
 		AFBF781F059BB19171E65407B543B9CC /* DKKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DKKit; path = DKKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFDAF216BC1885E545713846E8B3EF2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AFDAF216BC1885E545713846E8B3EF2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B3A4885824197A04DC85168F2D97829C /* Pods-DKKitDemo-DKKitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKKitDemo-DKKitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B64196037202A6909E18A284F64D07BF /* Pods-DKKitDemo-DKKitDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKKitDemo-DKKitDemoUITests-umbrella.h"; sourceTree = "<group>"; };
 		B8BEADDFE9E654A81F171812569486DF /* NSArray+DKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DKModel.m"; sourceTree = "<group>"; };
@@ -383,7 +387,6 @@
 				1AFE7EE617D9ADBA546BFA5672B8A121 /* NSString+DKModel.h */,
 				4C1F2A5884AB2C726BCC40CC314101ED /* NSString+DKModel.m */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -430,7 +433,6 @@
 				8B54B36540F565BEDDBD74B456B1B854 /* UIView+DKUtils.h */,
 				A532EA92F51E2A5D5F905290FF606963 /* UIView+DKUtils.m */,
 			);
-			name = UIKit;
 			path = UIKit;
 			sourceTree = "<group>";
 		};
@@ -457,7 +459,6 @@
 				AA12C3A12D42115BC4BFF4CDA6462A39 /* DKWeakProxy.h */,
 				D15257F3C2DF673FE81F882E06F6E002 /* DKWeakProxy.m */,
 			);
-			name = Utility;
 			path = Utility;
 			sourceTree = "<group>";
 		};
@@ -478,7 +479,6 @@
 				EE6837F10EEF8AD08623EAFDB8A953FB /* Foundation */,
 				CABEC44697E778F6D6563FC7F8A6F86D /* UIKit */,
 			);
-			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -527,8 +527,9 @@
 				334A7DD7AC95AC70505144FAD30855C3 /* NSString+DKMD5.m */,
 				BD8AA91353A46478238886C5B6230D90 /* NSString+DKSize.h */,
 				AC796214D646A2C447EB6E2BEFF8FC44 /* NSString+DKSize.m */,
+				845670CE2873EF360038AFDB /* NSObject+DKRouter.h */,
+				845670CF2873EF360038AFDB /* NSObject+DKRouter.m */,
 			);
-			name = Foundation;
 			path = Foundation;
 			sourceTree = "<group>";
 		};
@@ -614,6 +615,7 @@
 				E11348CCBB3BAAC1D63B3C9AE82D35F3 /* UIButton+DKExpandTouchArea.h in Headers */,
 				D9693B64EFC44B9DFCF17F80A8E65C49 /* UIControl+DKBlock.h in Headers */,
 				3DEE01BA02D58A278D88B553F83F46C8 /* UIControl+DKThrottle.h in Headers */,
+				845670D02873EF360038AFDB /* NSObject+DKRouter.h in Headers */,
 				E8A119386146873E052EA1994928AD83 /* UITextField+DKPlaceholder.h in Headers */,
 				A336FD8ACF24F458F893116CA59D5B17 /* UIView+DKIBInspectable.h in Headers */,
 				D852A7490D3084ABAE1EC100D0DB646B /* UIView+DKUtils.h in Headers */,
@@ -814,6 +816,7 @@
 				15A9BBE573A58AF9DF34AA7B2C059291 /* NSString+DKMD5.m in Sources */,
 				CE39EA5D1B5F1ECA2BD8633CFB4A2DEE /* NSString+DKModel.m in Sources */,
 				94029AD2E416341C577577A5D5B4377D /* NSString+DKSize.m in Sources */,
+				845670D12873EF360038AFDB /* NSObject+DKRouter.m in Sources */,
 				9B4EC596A8189DB13D9D451555B938D1 /* UIButton+DKExpandTouchArea.m in Sources */,
 				0CDF438651FAF14BF15EE4A51F92DC39 /* UIControl+DKBlock.m in Sources */,
 				9CC41E5ED2201F200A3F908885FDC960 /* UIControl+DKThrottle.m in Sources */,

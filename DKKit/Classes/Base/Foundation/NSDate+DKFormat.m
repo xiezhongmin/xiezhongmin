@@ -7,6 +7,10 @@
 
 #import "NSDate+DKFormat.h"
 
+#define kMinitue  60             // 分
+#define kHour     3600           // 时
+#define kDay      86400          // 天
+
 @implementation NSDate (DKFormat)
 
 - (NSInteger)year {
@@ -139,6 +143,25 @@
     NSTimeInterval aTimeInterval = [self timeIntervalSinceReferenceDate] + seconds;
     NSDate *newDate = [NSDate dateWithTimeIntervalSinceReferenceDate:aTimeInterval];
     return newDate;
+}
+
+
+#pragma mark - Date Util -
+
+- (NSString *)getBeforeNow
+{
+    NSString *retString = nil;
+    NSInteger interval = (NSInteger)[[NSDate date] timeIntervalSinceDate:self];
+    if (interval < kMinitue) {
+        retString = [NSString stringWithFormat:@"刚刚"];
+    } else if(interval < kHour) {
+        retString = [NSString stringWithFormat:@"%d分钟前",(int)(interval / kMinitue)];
+    } else if(interval < kDay) {
+        retString = [NSString stringWithFormat:@"%d小时前",(int)(interval / kHour)];
+    } else {
+        retString = [NSString stringWithFormat:@"%d天前",(int)(interval / kDay)];
+    }
+    return retString;
 }
 
 @end

@@ -148,7 +148,7 @@
 
 #pragma mark - Date Util -
 
-- (NSString *)getBeforeNow
+- (NSString *)dk_beforeCurrentTimeNow
 {
     NSString *retString = nil;
     NSInteger interval = (NSInteger)[[NSDate date] timeIntervalSinceDate:self];

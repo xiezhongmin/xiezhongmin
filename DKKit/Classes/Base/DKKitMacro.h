@@ -136,9 +136,9 @@ isiPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.b
  *  Scale
  */
 /// 根据 375*667(iPhone 6) 尺寸比例, 计算 size
-#define DK_SCALE_SIZE_FROM375(x)              ((x)*DK_SCREEN_WIDTH/375)
+#define DK_SCALE_SIZE_FROM375(x)                ((x)*DK_SCREEN_WIDTH/375)
 /// 如果横屏显示
-#define DK_SCALE_SIZE_FROM375_IF_LANDSCAPE    (DK_IS_ORIENTATION_LANDSCAPE ? ((x)*DK_SCREEN_HEIGHT/375) : DK_SCALE_SIZE_FROM375(x))
+#define DK_SCALE_SIZE_FROM375_IF_LANDSCAPE(x)   (DK_IS_ORIENTATION_LANDSCAPE ? ((x)*DK_SCREEN_HEIGHT/375) : DK_SCALE_SIZE_FROM375(x))
 
 
 /**

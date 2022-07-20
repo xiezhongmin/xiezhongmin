@@ -19,6 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.view.backgroundColor = DK_COLOR_HEX(#66ccff);
     DKLog(@"DKLog DKLog DKLog DKLog");
     DKLogError(@"DKLogError DKLogError DKLogError");
     DKLogWarn(@"DKLogWarn DKLogWarn DKLogWarn");

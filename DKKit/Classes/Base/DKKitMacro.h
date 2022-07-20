@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <pthread.h>
+#import "UIColor+DKUtils.h"
 
 
 #ifndef DKKitMacro_h
@@ -148,10 +149,17 @@ isiPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.b
 #define DK_RGB(R, G, B)    [UIColor colorWithRed:R/255.0f green:G/255.0f blue:B/255.0f alpha:1.0f]
 #define DK_RGBA(R,G,B,A)   [UIColor colorWithRed:(R)/255.0f \
                         green:(G)/255.0f blue:(B)/255.0f alpha:(A)]
-#define DK_RGB_VALUE(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define DK_RGB_VALUE(rgbValue)   [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
 /// 16进制颜色
-#define DK_COLOR_HEX(hex)  [UIColor colorWithRed:(((hex & 0xFF0000) >> 16))/255.0 green:(((hex &0xFF00) >>8))/255.0 blue:((hex &0xFF))/255.0 alpha:1.0]
-#define DK_COLOR_HEX_A(hex, a)  [UIColor colorWithRed:(((hex & 0xFF0000) >> 16))/255.0 green:(((hex &0xFF00) >>8))/255.0 blue:((hex &0xFF))/255.0 alpha:a]
+//#define DK_COLOR_HEX(hex)             [UIColor colorWithRed:(((hex & 0xFF0000) >> 16))/255.0 green:(((hex &0xFF00) >>8))/255.0 blue:((hex &0xFF))/255.0 alpha:1.0]
+//#define DK_COLOR_HEX_A(hex, a)        [UIColor colorWithRed:(((hex & 0xFF0000) >> 16))/255.0 green:(((hex &0xFF00) >>8))/255.0 blue:((hex &0xFF))/255.0 alpha:a]
+
+/// Example: DK_COLOR_HEX(0xF0F),  DK_COLOR_HEX(0x66ccff), DK_COLOR_HEX(#66CCFF88)
+#define DK_COLOR_HEX(hex)   [UIColor dk_colorWithHexString: ((__bridge NSString *)CFSTR(#hex))]
+
+/// Example: #RGB: @"F0F" or @"0xF0F",  #ARGB: @"F0FC" or @"0xFF0F",  #RRGGBB: @"66ccff" or @"0x66ccff",  #AARRGGBB: @"66CCFF88" or @"0x66CCFF88"
+#define DK_COLOR_HEX_STR(hexString)   [UIColor dk_colorWithHexString: hexString]
 
 
 /**

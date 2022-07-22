@@ -351,6 +351,13 @@ static inline void dk_sync_on_main_queue(void (^block)(void)) {
     }
 }
 
+static inline bool dk_isIpad() {
+    NSString *deviceType = [UIDevice currentDevice].model;
+    if ([deviceType isEqualToString:@"iPad"]) {
+        return YES;
+    }
+    return NO;
+}
 
 #endif /* DKKitMacro_h */
 

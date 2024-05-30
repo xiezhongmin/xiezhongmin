@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DKKit'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of DKKit.'
 
 # This description is used to generate tags and improve search results.
@@ -37,5 +37,4 @@ TODO: Add long description of the pod here.
   }
 
   s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -25,6 +25,7 @@
 #import "NSString+DKEncodeAndDecode.h"
 #import "NSString+DKMD5.h"
 #import "NSString+DKSize.h"
+#import "NSString+DKUtils.h"
 #import "UIButton+DKExpandTouchArea.h"
 #import "UIColor+DKUtils.h"
 #import "UIControl+DKBlock.h"
